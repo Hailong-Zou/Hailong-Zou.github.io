@@ -637,6 +637,12 @@ body {
     opacity: .17;
 }
 
+// The UCAS seal has finer strokes and reads optically smaller at the same box size.
+.education .education-item--ucas .education-watermark img {
+    width: 7rem;
+    height: 7rem;
+}
+
 .page__content > ul {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));

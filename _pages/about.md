@@ -11,10 +11,30 @@ redirect_from:
 <span class="anchor" id="about-me"></span>
 
 <section class="intro-card">
-  <p class="intro-kicker">Ph.D. Student · Efficient AI Systems · Hardware-Software Co-Design · Edge Computing</p>
-  <h1>Hailong Zou</h1>
-  <p>Starting in September 2026, I will pursue a Ph.D. in Computer Science and Technology at the School of Computer Science, Peking University. I am joining the <a href="https://if-lab-pku.github.io/">Intelligence Fusion Laboratory (IF-Lab)</a>, advised by <a href="https://cs.pku.edu.cn/info/1210/2865.htm">Prof. Xiang Chen</a>. I received my M.S. in Circuits and Systems from the Institute of Microelectronics, Chinese Academy of Sciences, and my B.Eng. in Electronic Information Engineering from Wuhan University.</p>
+  <div class="intro-copy">
+    <div class="intro-meta">
+      <span class="pku-badge"><strong>PKU</strong><span>1898</span></span>
+      <p class="intro-kicker">Ph.D. Student · Efficient AI Systems · Hardware-Software Co-Design · Edge Computing</p>
+    </div>
+    <h1>Hailong Zou</h1>
+    <p class="intro-lead">Starting in September 2026, I will pursue a Ph.D. in Computer Science and Technology at the School of Computer Science, Peking University. I am joining the <a href="https://if-lab-pku.github.io/">Intelligence Fusion Laboratory (IF-Lab)</a>, advised by <a href="https://cs.pku.edu.cn/info/1210/2865.htm">Prof. Xiang Chen</a>.</p>
+    <p>I received my M.S. in Circuits and Systems from the Institute of Microelectronics, Chinese Academy of Sciences, and my B.Eng. in Electronic Information Engineering from Wuhan University.</p>
+    <div class="intro-actions">
+      <a class="intro-action primary" href="#research"><i class="fas fa-compass" aria-hidden="true"></i> Explore My Research</a>
+      <a class="intro-action" href="mailto:zouhailong26@stu.pku.edu.cn"><i class="fas fa-paper-plane" aria-hidden="true"></i> Get in Touch</a>
+    </div>
+  </div>
+  <div class="intro-visual" role="img" aria-label="Sunset over Yan Yuan at Peking University, photographed by Hailong Zou">
+    <div class="intro-visual__seal" aria-hidden="true"><span>PKU</span><small>1898</small></div>
+    <div class="intro-visual__caption"><span>YAN YUAN</span><strong>Peking University</strong><small>Photographed by Hailong Zou</small></div>
+  </div>
 </section>
+
+<div class="identity-strip" aria-label="Academic profile summary">
+  <div><span class="identity-icon"><i class="fas fa-university" aria-hidden="true"></i></span><p><small>School</small><strong>Computer Science</strong></p></div>
+  <div><span class="identity-icon"><i class="fas fa-flask" aria-hidden="true"></i></span><p><small>Laboratory</small><strong>PKU IF-LAB</strong></p></div>
+  <div><span class="identity-icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></span><p><small>Based in</small><strong>Beijing, China</strong></p></div>
+</div>
 
 <span class="anchor" id="research"></span>
 
@@ -224,3 +244,8 @@ Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Ha
     <figcaption><strong>Lakeside Afterglow</strong></figcaption>
   </figure>
 </div>
+
+<footer class="site-signoff">
+  <div><span class="site-signoff__mark">HZ</span><p><strong>Hailong Zou</strong><small>Efficient AI Systems · Peking University</small></p></div>
+  <p class="site-signoff__meta">PKU · IF-LAB · Beijing</p>
+</footer>

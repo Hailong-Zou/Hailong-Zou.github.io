@@ -5,7 +5,7 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>{{ site.title }} - Homepage</title>
+<title>Hailong Zou | Ph.D. Student at Peking University</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
@@ -26,9 +26,18 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="zh_CN">
+<meta name="description" content="{{ seo_description }}">
+<meta name="author" content="Hailong Zou">
+<meta name="keywords" content="Hailong Zou, Zou Hailong, Peking University, PKU, IF-LAB, efficient AI systems, hardware-software co-design, edge computing">
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+<meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ site.title }}">
+<meta property="og:title" content="Hailong Zou | Peking University">
+<meta property="og:type" content="profile">
+<meta property="profile:first_name" content="Hailong">
+<meta property="profile:last_name" content="Zou">
+<meta property="og:image" content="{{ site.url }}/{{ site.author.avatar }}">
 
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
@@ -38,6 +47,11 @@
 {% if page.excerpt %}
   <meta property="og:description" content="{{ seo_description }}">
 {% endif %}
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hailong Zou | Peking University">
+<meta name="twitter:description" content="{{ seo_description }}">
+<meta name="twitter:image" content="{{ site.url }}/{{ site.author.avatar }}">
 
 {% if site.twitter.username %}
   <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}">
@@ -69,4 +83,37 @@
 {% if site.baidu_site_verification %}
   <meta name="baidu-site-verification" content="{{ site.baidu_site_verification }}" />
 {% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Hailong Zou",
+  "alternateName": "Zou Hailong",
+  "url": "{{ site.url }}",
+  "image": "{{ site.url }}/{{ site.author.avatar }}",
+  "jobTitle": "Ph.D. Student in Computer Science and Technology",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Peking University",
+    "url": "https://www.pku.edu.cn/"
+  },
+  "alumniOf": [
+    {"@type": "CollegeOrUniversity", "name": "University of Chinese Academy of Sciences"},
+    {"@type": "CollegeOrUniversity", "name": "Wuhan University"}
+  ],
+  "knowsAbout": [
+    "Efficient AI Systems",
+    "Hardware-Software Co-Design",
+    "Edge Computing"
+  ],
+  "sameAs": [
+    "https://github.com/Hellon-ye",
+    "https://scholar.google.com/citations?user=cE-S7Q4AAAAJ&hl=en",
+    "https://orcid.org/0009-0004-0090-9553",
+    "https://openreview.net/profile?id=%7EHailong_Zou1",
+    "https://if-lab-pku.github.io/"
+  ]
+}
+</script>
 <!-- end SEO -->

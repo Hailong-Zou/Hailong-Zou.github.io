@@ -11,22 +11,26 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <div class="profile__pku-mark"><span>PKU</span><small>Peking University · 1898</small></div>
   </div>
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
+      {% if author.blurb %}
+        <li class="author__description">{{ author.blurb }}</li>
       {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
-        <li><i class="fas fa-fw fa-university" aria-hidden="true"></i> {{ author.employer }}</li>
+        <li class="author__meta"><i class="fas fa-fw fa-university" aria-hidden="true"></i>{% if author.employer_url %}<a href="{{ author.employer_url }}">{{ author.employer }}</a>{% else %}{{ author.employer }}{% endif %}</li>
       {% endif %}
       {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-globe" aria-hidden="true"></i> Personal Website</a></li>
+      {% endif %}
+      {% if author.lab %}
+        <li><a href="{{ author.lab }}"><i class="fas fa-fw fa-flask" aria-hidden="true"></i> IF-LAB</a></li>
       {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
@@ -124,10 +128,13 @@
     </ul>
       <div class="author__urls_sm">
       {% if author.uri %}
-        <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
+        <a href="{{ author.uri }}" aria-label="Personal Website"><i class="fas fa-fw fa-globe" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.lab %}
+        <a href="{{ author.lab }}" aria-label="IF-LAB"><i class="fas fa-fw fa-flask" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.email %}
-        <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+        <a href="mailto:{{ author.email }}" aria-label="Email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
@@ -163,7 +170,7 @@
         <a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.github %}
-        <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
+        <a href="https://github.com/{{ author.github }}" aria-label="GitHub"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.stackoverflow %}
         <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i></a>
@@ -202,13 +209,13 @@
         <a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.googlescholar %}
-        <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
+        <a href="{{ author.googlescholar }}" aria-label="Google Scholar"><i class="fas fa-fw fa-graduation-cap"></i></a>
       {% endif %}
       {% if author.pubmed %}
         <a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i></a>
       {% endif %}
       {% if author.orcid %}
-        <a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i></a>
+        <a href="{{ author.orcid }}" aria-label="ORCID"><i class="ai ai-orcid-square ai-fw"></i></a>
       {% endif %}
       {% if author.openreview %}
         <a href="{{ author.openreview }}" aria-label="OpenReview"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i></a>

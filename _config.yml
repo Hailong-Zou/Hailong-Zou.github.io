@@ -26,13 +26,16 @@ author:
   name             : "Hailong Zou"
   avatar           : "images/profile.jpg"
   bio              : "Ph.D. Student · PKU IF-LAB"
+  blurb            : "Building efficient AI systems across models, hardware, and the edge."
   location         : "Beijing, China"
   employer         : "Peking University"
+  employer_url     : "https://www.pku.edu.cn/"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=cE-S7Q4AAAAJ&hl=en"
   email            : "zouhailong26@stu.pku.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              : "https://if-lab-pku.github.io/"
+  uri              : "https://hellon-ye.github.io/"
+  lab              : "https://if-lab-pku.github.io/"
   bitbucket        :
   codepen          :
   dribbble         :

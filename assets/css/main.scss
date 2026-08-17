@@ -412,7 +412,7 @@ body {
     color: var(--hz-ink);
     background: none;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(2rem, 3vw, 2.7rem);
+    font-size: 25px;
     font-weight: 500;
     letter-spacing: -.055em;
     line-height: 1;
@@ -961,7 +961,7 @@ body {
     }
 
     .intro-card h1 {
-        font-size: 1.9rem;
+        font-size: 25px;
     }
 
     .skills-grid,

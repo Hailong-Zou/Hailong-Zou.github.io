@@ -19,14 +19,10 @@ redirect_from:
     <h1>Hailong Zou</h1>
     <p class="intro-lead">Starting in September 2026, I will pursue a Ph.D. in Computer Science and Technology at the School of Computer Science, Peking University. I am joining the <a href="https://if-lab-pku.github.io/">Intelligence Fusion Laboratory (IF-Lab)</a>, advised by <a href="https://cs.pku.edu.cn/info/1210/2865.htm">Prof. Xiang Chen</a>.</p>
     <p>I received my M.S. in Circuits and Systems from the Institute of Microelectronics, Chinese Academy of Sciences, and my B.Eng. in Electronic Information Engineering from Wuhan University.</p>
-    <div class="intro-actions">
-      <a class="intro-action primary" href="#research"><i class="fas fa-compass" aria-hidden="true"></i> Explore My Research</a>
-      <a class="intro-action" href="mailto:zouhailong26@stu.pku.edu.cn"><i class="fas fa-paper-plane" aria-hidden="true"></i> Get in Touch</a>
-    </div>
-  </div>
-  <div class="intro-visual" role="img" aria-label="Sunset over Yan Yuan at Peking University, photographed by Hailong Zou">
-    <div class="intro-visual__seal" aria-hidden="true"><span>PKU</span><small>1898</small></div>
-    <div class="intro-visual__caption"><span>YAN YUAN</span><strong>Peking University</strong><small>Photographed by Hailong Zou</small></div>
+    <a class="intro-email" href="mailto:zouhailong26@stu.pku.edu.cn" aria-label="Email Hailong Zou at zouhailong26@stu.pku.edu.cn">
+      <span class="intro-email__icon"><i class="fas fa-envelope" aria-hidden="true"></i></span>
+      <span><small>Email</small><strong>zouhailong26@stu.pku.edu.cn</strong></span>
+    </a>
   </div>
 </section>
 

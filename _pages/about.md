@@ -204,3 +204,36 @@ Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Ha
     <p class="en-copy">I enjoy photography, with an emphasis on composition, lighting, and portrait expression, and use images to document academic events and everyday life.</p>
   </div>
 </div>
+
+<span class="anchor" id="photography"></span>
+
+# 摄影作品 / Photography
+
+<p class="photography-intro">科研之外，我也喜欢用相机记录校园、人群与自然中的光线变化。点击图片可查看大图。<br><span class="en-copy">Beyond research, I enjoy photographing campus life, people, nature, and changing light. Click any image to view it in full.</span></p>
+
+<div class="photo-gallery">
+  <figure class="photo-card">
+    <a href="/images/photography/yan-yuan-sunset.jpg" title="燕园晚霞 · Sunset over Yan Yuan">
+      <img src="/images/photography/yan-yuan-sunset.jpg" alt="燕园建筑与博雅塔上空的晚霞" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>燕园晚霞</strong><span>Sunset over Yan Yuan</span></figcaption>
+  </figure>
+  <figure class="photo-card">
+    <a href="/images/photography/graduation-day.jpg" title="毕业时刻 · Graduation Day">
+      <img src="/images/photography/graduation-day.jpg" alt="中国科学院大学毕业典礼现场" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>毕业时刻</strong><span>Graduation Day</span></figcaption>
+  </figure>
+  <figure class="photo-card">
+    <a href="/images/photography/grassland-clouds.jpg" title="云下草原 · Grassland beneath the Clouds">
+      <img src="/images/photography/grassland-clouds.jpg" alt="蓝天白云下的绿色草原与小路" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>云下草原</strong><span>Grassland beneath the Clouds</span></figcaption>
+  </figure>
+  <figure class="photo-card">
+    <a href="/images/photography/lakeside-afterglow.jpg" title="湖畔霞光 · Lakeside Afterglow">
+      <img src="/images/photography/lakeside-afterglow.jpg" alt="晚霞映照湖面与远山建筑剪影" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>湖畔霞光</strong><span>Lakeside Afterglow</span></figcaption>
+  </figure>
+</div>

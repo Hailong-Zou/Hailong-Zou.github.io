@@ -421,6 +421,61 @@ body {
     font-size: .84rem;
 }
 
+.photography-intro {
+    margin-bottom: 1.2rem;
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.1rem;
+}
+
+.photo-card {
+    overflow: hidden;
+    margin: 0;
+    border: 1px solid var(--hz-line);
+    border-radius: 14px;
+    background: var(--hz-card);
+    box-shadow: 0 8px 24px rgba(23, 32, 51, .06);
+}
+
+.photo-card a {
+    display: block;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    background: #e9eef4;
+}
+
+.photo-card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .35s ease, filter .35s ease;
+}
+
+.photo-card a:hover img,
+.photo-card a:focus img {
+    filter: saturate(1.04) contrast(1.02);
+    transform: scale(1.025);
+}
+
+.photo-card figcaption {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: .8rem;
+    padding: .8rem 1rem .9rem;
+    color: var(--hz-ink);
+}
+
+.photo-card figcaption span {
+    color: var(--hz-muted);
+    font-size: .82rem;
+    text-align: right;
+}
+
 @media (max-width: 767px) {
     #main {
         margin-top: 1rem;
@@ -442,8 +497,19 @@ body {
     }
 
     .focus-grid,
-    .skills-grid {
+    .skills-grid,
+    .photo-gallery {
         grid-template-columns: 1fr;
+    }
+
+    .photo-card figcaption {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: .15rem;
+    }
+
+    .photo-card figcaption span {
+        text-align: left;
     }
 
     .skills-grid > div:first-child {

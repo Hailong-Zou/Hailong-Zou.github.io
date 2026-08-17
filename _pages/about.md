@@ -11,39 +11,35 @@ redirect_from:
 <span class="anchor" id="about-me"></span>
 
 <section class="intro-card">
-  <p class="intro-kicker">博士生 · 高效人工智能系统 · 软硬件协同优化 · 边缘计算 <span>Ph.D. Student · Efficient AI Systems · Hardware-Software Co-Design · Edge Computing</span></p>
-  <h1>邹海龙 <span>Hailong Zou</span></h1>
-  <p>我将于 2026 年 9 月起在北京大学计算机学院攻读计算机科学与技术专业博士学位，加入 <a href="https://if-lab-pku.github.io/">智能融合实验室（IF-LAB）</a>，师从<a href="https://cs.pku.edu.cn/info/1092/2864.htm">陈翔教授</a>。此前，我于中国科学院微电子研究所获得电路与系统专业硕士学位，并于武汉大学获得电子信息工程专业学士学位。</p>
-  <p class="en-copy">Starting in September 2026, I will pursue a Ph.D. in Computer Science and Technology at the School of Computer Science, Peking University. I am joining the <a href="https://if-lab-pku.github.io/">Intelligence Fusion Laboratory (IF-Lab)</a>, advised by <a href="https://cs.pku.edu.cn/info/1210/2865.htm">Prof. Xiang Chen</a>. I received my M.S. in Circuits and Systems from the Institute of Microelectronics, Chinese Academy of Sciences, and my B.Eng. in Electronic Information Engineering from Wuhan University.</p>
+  <p class="intro-kicker">Ph.D. Student · Efficient AI Systems · Hardware-Software Co-Design · Edge Computing</p>
+  <h1>Hailong Zou</h1>
+  <p>Starting in September 2026, I will pursue a Ph.D. in Computer Science and Technology at the School of Computer Science, Peking University. I am joining the <a href="https://if-lab-pku.github.io/">Intelligence Fusion Laboratory (IF-Lab)</a>, advised by <a href="https://cs.pku.edu.cn/info/1210/2865.htm">Prof. Xiang Chen</a>. I received my M.S. in Circuits and Systems from the Institute of Microelectronics, Chinese Academy of Sciences, and my B.Eng. in Electronic Information Engineering from Wuhan University.</p>
 </section>
 
 <span class="anchor" id="research"></span>
 
-# 研究方向 / Research Interests
+# Research Interests
 
 <div class="focus-grid">
   <div class="focus-card">
-    <h3><span class="card-icon"><i class="fas fa-bolt" aria-hidden="true"></i></span>高效人工智能系统</h3>
-    <p>面向基础模型与智能体的高效推理、模型压缩、缓存和系统优化。</p>
-    <p class="en-copy">Efficient inference, model compression, caching, and systems optimization for foundation models and intelligent agents.</p>
+    <h3><span class="card-icon"><i class="fas fa-bolt" aria-hidden="true"></i></span>Efficient AI Systems</h3>
+    <p>Efficient inference, model compression, caching, and systems optimization for foundation models and intelligent agents.</p>
   </div>
   <div class="focus-card">
-    <h3><span class="card-icon"><i class="fas fa-microchip" aria-hidden="true"></i></span>软硬件协同优化</h3>
-    <p>围绕算法、编译、体系结构与加速器开展跨层设计和性能优化。</p>
-    <p class="en-copy">Cross-layer design and performance optimization spanning algorithms, compilers, architectures, and accelerators.</p>
+    <h3><span class="card-icon"><i class="fas fa-microchip" aria-hidden="true"></i></span>Hardware-Software Co-Design</h3>
+    <p>Cross-layer design and performance optimization spanning algorithms, compilers, architectures, and accelerators.</p>
   </div>
   <div class="focus-card">
-    <h3><span class="card-icon"><i class="fas fa-network-wired" aria-hidden="true"></i></span>边缘计算</h3>
-    <p>研究资源受限场景下的模型部署、端边云协同、任务划分与推理加速。</p>
-    <p class="en-copy">Model deployment, edge-cloud collaboration, workload partitioning, and inference acceleration in resource-constrained environments.</p>
+    <h3><span class="card-icon"><i class="fas fa-network-wired" aria-hidden="true"></i></span>Edge Computing</h3>
+    <p>Model deployment, edge-cloud collaboration, workload partitioning, and inference acceleration in resource-constrained environments.</p>
   </div>
 </div>
 
 <span class="anchor" id="publications"></span>
 
-# 论文 / Publications
+# Publications
 
-## 期刊论文 / Journal Articles
+## Journal Articles
 
 <div class="publication" markdown="1">
 <span class="venue">Information Sciences · 2026</span>
@@ -75,7 +71,7 @@ Jun Li, Qiang Li, Yiying Jiang, Jionghao Zhang, **Hailong Zou**, Mengdie Tao, Li
 *Applied Sciences*, 16(4): 2021, 2026. [DOI](https://doi.org/10.3390/app16042021)
 </div>
 
-## 预印本 / Preprints
+## Preprints
 
 <div class="publication compact" markdown="1">
 ### [MoECa: Aligning Feature Reuse with Expert Decomposition in Diffusion Transformers](https://arxiv.org/abs/2606.15615)
@@ -101,139 +97,130 @@ Zihao Zheng, Hangyu Cao, Sicheng Tian, Jiayu Chen, Maoliang Li, Xinhao Sun, **Ha
 Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Hailong Zou**, Zhaobo Zhang, Xuanzhe Liu, Donggang Cao, Hong Mei, Xiang Chen. *arXiv preprint*, 2026.
 </div>
 
-<p class="source-note">完整且持续更新的论文列表请见 <a href="https://scholar.google.com/citations?user=cE-S7Q4AAAAJ&hl=zh-CN">Google Scholar</a>、<a href="https://orcid.org/0009-0004-0090-9553">ORCID</a> 与 <a href="https://openreview.net/profile?id=%7EHailong_Zou1">OpenReview</a>。<br><span class="en-copy">For the complete and current publication list, please visit Google Scholar, ORCID, and OpenReview.</span></p>
+<p class="source-note">For the complete and current publication list, please visit <a href="https://scholar.google.com/citations?user=cE-S7Q4AAAAJ&hl=en">Google Scholar</a>, <a href="https://orcid.org/0009-0004-0090-9553">ORCID</a>, and <a href="https://openreview.net/profile?id=%7EHailong_Zou1">OpenReview</a>.</p>
 
 <span class="anchor" id="experience"></span>
 
-# 经历 / Experience
+# Experience
 
 <div class="timeline">
   <div class="timeline-item">
     <div class="timeline-date">2026.09 -</div>
     <div>
-      <h3>北京大学智能融合实验室（IF-LAB）</h3>
-      <p><strong>博士生 · 导师：陈翔教授</strong></p>
-      <p>面向高效人工智能系统、基础模型推理优化和软硬件协同设计开展研究。</p>
-      <p class="en-copy"><strong>Ph.D. Student · Advisor: Prof. Xiang Chen.</strong> Research on efficient AI systems, foundation-model inference, and hardware-software co-design.</p>
+      <h3>Intelligence Fusion Laboratory (IF-Lab), Peking University</h3>
+      <p><strong>Ph.D. Student · Advisor: Prof. Xiang Chen</strong></p>
+      <p>Research on efficient AI systems, foundation-model inference optimization, hardware-software co-design, and edge computing.</p>
     </div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">2024 - 2026</div>
     <div>
-      <h3>高能效神经形态处理芯片关键技术项目</h3>
-      <p><strong>核心参与人员 · 中国科学院微电子研究所</strong></p>
-      <p>开发 PCIe 数据传输模块；融合 YOLOv3 与 SpikeformerV2；开展模型预训练与量化感知训练，在保持精度基本稳定的同时降低参数位宽和计算开销。</p>
-      <p class="en-copy">Developed a PCIe data-transfer module, integrated YOLOv3 with SpikeformerV2, and applied pretraining and quantization-aware training to reduce precision and computation costs while maintaining accuracy.</p>
+      <h3>Key Technologies for Energy-Efficient Neuromorphic Processing Chips</h3>
+      <p><strong>Core Team Member · Institute of Microelectronics, Chinese Academy of Sciences</strong></p>
+      <p>Developed a PCIe data-transfer module, integrated YOLOv3 with SpikeformerV2, and applied pretraining and quantization-aware training to reduce precision and computation costs while maintaining accuracy.</p>
     </div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">2022.11 - 2023.05</div>
     <div>
-      <h3>华大九天（成都） · Empyrean Technology</h3>
-      <p><strong>软件开发工程师实习生 · BTG 项目组</strong></p>
-      <p>参与 pyAether 研发，将 EDA 软件 Aether 的底层 C++ 能力封装为 Python 接口，并测试接口功能与完整性。</p>
-      <p class="en-copy"><strong>Software Engineering Intern, BTG Team.</strong> Contributed to pyAether by exposing core C++ capabilities of the Aether EDA platform through Python APIs and validating interface correctness and coverage.</p>
+      <h3>Empyrean Technology, Chengdu</h3>
+      <p><strong>Software Engineering Intern · BTG Team</strong></p>
+      <p>Contributed to pyAether by exposing core C++ capabilities of the Aether EDA platform through Python APIs and validating interface correctness and coverage.</p>
     </div>
   </div>
 </div>
 
 <span class="anchor" id="education"></span>
 
-# 教育背景 / Education
+# Education
 
 <div class="timeline education">
   <div class="timeline-item">
     <div class="timeline-date">2026.09 -</div>
     <div>
-      <h3>北京大学 · Peking University</h3>
-      <p>计算机学院，计算机科学与技术专业，博士研究生；智能融合实验室（IF-LAB），导师：陈翔教授。</p>
-      <p class="en-copy">Ph.D. in Computer Science and Technology, School of Computer Science; Intelligence Fusion Laboratory (IF-Lab), advised by Prof. Xiang Chen.</p>
+      <h3>Peking University</h3>
+      <p>Ph.D. in Computer Science and Technology, School of Computer Science; Intelligence Fusion Laboratory (IF-Lab), advised by Prof. Xiang Chen.</p>
     </div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">2023.09 - 2026.06</div>
     <div>
-      <h3>中国科学院微电子研究所 · Institute of Microelectronics, CAS</h3>
-      <p>电路与系统专业，硕士。</p>
-      <p class="en-copy">M.S. in Circuits and Systems.</p>
+      <h3>Institute of Microelectronics, Chinese Academy of Sciences</h3>
+      <p>M.S. in Circuits and Systems.</p>
     </div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">2019.09 - 2023.06</div>
     <div>
-      <h3>武汉大学 · Wuhan University</h3>
-      <p>电子信息工程专业卓越工程师班，工学学士；专业排名 29/445。</p>
-      <p class="en-copy">B.Eng. in Electronic Information Engineering, Excellence Engineer Program; ranked 29/445.</p>
+      <h3>Wuhan University</h3>
+      <p>B.Eng. in Electronic Information Engineering, Excellence Engineer Program; ranked 29/445.</p>
     </div>
   </div>
 </div>
 
 <span class="anchor" id="honors"></span>
 
-# 荣誉与奖励 / Honors & Awards
+# Honors & Awards
 
-- **中国科学院大学三好学生 / UCAS Outstanding Student**, 2023-2024
-- **中国科学院大学优秀团员 / UCAS Outstanding Youth League Member**, 2023-2024
-- **湖北省大学生电子设计竞赛（TI 杯）特等奖 / Hubei Undergraduate Electronic Design Contest (TI Cup), Special Prize**, 2020-2021
-- **武汉大学优秀学生、校学生丙等奖学金 / Wuhan University Outstanding Student & Scholarship**, 2020-2021
-- **武汉大学社会活动积极分子 / Wuhan University Social Engagement Award**, 2021-2022
-- **中国扶贫基金会优秀活动组织者 / Outstanding Activity Organizer, China Foundation for Poverty Alleviation**, 2021-2022
+- **UCAS Outstanding Student**, 2023-2024
+- **UCAS Outstanding Youth League Member**, 2023-2024
+- **Hubei Undergraduate Electronic Design Contest (TI Cup), Special Prize**, 2020-2021
+- **Wuhan University Outstanding Student & Third-Class Scholarship**, 2020-2021
+- **Wuhan University Social Engagement Award**, 2021-2022
+- **Outstanding Activity Organizer, China Foundation for Poverty Alleviation**, 2021-2022
 
 <span class="anchor" id="skills"></span>
 
-# 技能与服务 / Skills & Service
+# Skills & Service
 
 <div class="skills-grid">
   <div>
-    <h3><span class="card-icon small"><i class="fas fa-code" aria-hidden="true"></i></span>编程与工具 / Programming & Tools</h3>
+    <h3><span class="card-icon small"><i class="fas fa-code" aria-hidden="true"></i></span>Programming & Tools</h3>
     <p class="tag-list"><span>Python</span><span>C++</span><span>C</span><span>C#</span><span>Verilog</span><span>MATLAB</span><span>TCL</span><span>Linux</span><span>Git</span><span>Vivado</span></p>
   </div>
   <div>
-    <h3><span class="card-icon small"><i class="fas fa-language" aria-hidden="true"></i></span>语言 / Languages</h3>
-    <p>中文（母语）；英语（CET-4: 485，CET-6: 475）。</p>
-    <p class="en-copy">Chinese (native); English (CET-4: 485, CET-6: 475).</p>
+    <h3><span class="card-icon small"><i class="fas fa-language" aria-hidden="true"></i></span>Languages</h3>
+    <p>Chinese (native); English (CET-4: 485, CET-6: 475).</p>
   </div>
   <div>
-    <h3><span class="card-icon small"><i class="fas fa-users" aria-hidden="true"></i></span>学生与社会服务 / Leadership & Service</h3>
-    <p>曾任武汉大学青年志愿者协会对外联络部部长，累计志愿服务 94.2 小时。</p>
-    <p class="en-copy">Former Director of External Relations, Wuhan University Youth Volunteers Association; 94.2 hours of volunteer service.</p>
+    <h3><span class="card-icon small"><i class="fas fa-users" aria-hidden="true"></i></span>Leadership & Service</h3>
+    <p>Former Director of External Relations, Wuhan University Youth Volunteers Association; 94.2 hours of volunteer service.</p>
   </div>
   <div>
-    <h3><span class="card-icon small"><i class="fas fa-camera-retro" aria-hidden="true"></i></span>摄影 / Photography</h3>
-    <p>喜欢摄影，注重构图、光线与人物表达，也乐于用影像记录学术活动和日常生活。</p>
-    <p class="en-copy">I enjoy photography, with an emphasis on composition, lighting, and portrait expression, and use images to document academic events and everyday life.</p>
+    <h3><span class="card-icon small"><i class="fas fa-camera-retro" aria-hidden="true"></i></span>Photography</h3>
+    <p><strong>Contract Photographer at Visual China Group (VCG)</strong> and <strong>Contract Contributor at Tuchong</strong>.</p>
   </div>
 </div>
 
 <span class="anchor" id="photography"></span>
 
-# 摄影作品 / Photography
+# Photography
 
-<p class="photography-intro">科研之外，我也喜欢用相机记录校园、人群与自然中的光线变化。点击图片可查看大图。<br><span class="en-copy">Beyond research, I enjoy photographing campus life, people, nature, and changing light. Click any image to view it in full.</span></p>
+<p class="photography-intro">Selected photographic works. Click any image to view it in full.</p>
 
 <div class="photo-gallery">
   <figure class="photo-card">
-    <a href="/images/photography/yan-yuan-sunset.jpg" title="燕园晚霞 · Sunset over Yan Yuan">
-      <img src="/images/photography/yan-yuan-sunset.jpg" alt="燕园建筑与博雅塔上空的晚霞" loading="lazy" decoding="async">
+    <a href="/images/photography/yan-yuan-sunset.jpg" title="Sunset over Yan Yuan">
+      <img src="/images/photography/yan-yuan-sunset.jpg" alt="Sunset over the Yan Yuan campus and Boya Pagoda" loading="lazy" decoding="async">
     </a>
-    <figcaption><strong>燕园晚霞</strong><span>Sunset over Yan Yuan</span></figcaption>
+    <figcaption><strong>Sunset over Yan Yuan</strong></figcaption>
   </figure>
   <figure class="photo-card">
-    <a href="/images/photography/graduation-day.jpg" title="毕业时刻 · Graduation Day">
-      <img src="/images/photography/graduation-day.jpg" alt="中国科学院大学毕业典礼现场" loading="lazy" decoding="async">
+    <a href="/images/photography/graduation-day.jpg" title="Graduation Day">
+      <img src="/images/photography/graduation-day.jpg" alt="University of Chinese Academy of Sciences graduation ceremony" loading="lazy" decoding="async">
     </a>
-    <figcaption><strong>毕业时刻</strong><span>Graduation Day</span></figcaption>
+    <figcaption><strong>Graduation Day</strong></figcaption>
   </figure>
   <figure class="photo-card">
-    <a href="/images/photography/grassland-clouds.jpg" title="云下草原 · Grassland beneath the Clouds">
-      <img src="/images/photography/grassland-clouds.jpg" alt="蓝天白云下的绿色草原与小路" loading="lazy" decoding="async">
+    <a href="/images/photography/grassland-clouds.jpg" title="Grassland beneath the Clouds">
+      <img src="/images/photography/grassland-clouds.jpg" alt="Green grassland and a trail beneath a blue sky" loading="lazy" decoding="async">
     </a>
-    <figcaption><strong>云下草原</strong><span>Grassland beneath the Clouds</span></figcaption>
+    <figcaption><strong>Grassland beneath the Clouds</strong></figcaption>
   </figure>
   <figure class="photo-card">
-    <a href="/images/photography/lakeside-afterglow.jpg" title="湖畔霞光 · Lakeside Afterglow">
-      <img src="/images/photography/lakeside-afterglow.jpg" alt="晚霞映照湖面与远山建筑剪影" loading="lazy" decoding="async">
+    <a href="/images/photography/lakeside-afterglow.jpg" title="Lakeside Afterglow">
+      <img src="/images/photography/lakeside-afterglow.jpg" alt="Sunset reflected on a lake with distant architectural silhouettes" loading="lazy" decoding="async">
     </a>
-    <figcaption><strong>湖畔霞光</strong><span>Lakeside Afterglow</span></figcaption>
+    <figcaption><strong>Lakeside Afterglow</strong></figcaption>
   </figure>
 </div>

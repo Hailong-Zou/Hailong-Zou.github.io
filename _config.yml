@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "邹海龙 | Hailong Zou"
-description              : "北京大学计算机学院 IF-LAB 博士生，研究方向包括高效人工智能系统、软硬件协同优化与边缘计算。 Ph.D. student at Peking University working on efficient AI systems, hardware-software co-design, and edge computing."
+title                    : "Hailong Zou"
+description              : "Ph.D. student at the School of Computer Science, Peking University, working on efficient AI systems, hardware-software co-design, and edge computing."
 repository               : "Hellon-ye/Hellon-ye.github.io"
 url                      : "https://hellon-ye.github.io"
 baseurl                  : ""
@@ -23,13 +23,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "邹海龙"
+  name             : "Hailong Zou"
   avatar           : "images/profile.jpg"
   bio              : "Ph.D. Student · PKU IF-LAB"
   location         : "Beijing, China"
   employer         : "Peking University"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=cE-S7Q4AAAAJ&hl=zh-CN"
+  googlescholar    : "https://scholar.google.com/citations?user=cE-S7Q4AAAAJ&hl=en"
   email            : "zouhailong26@stu.pku.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              : "https://if-lab-pku.github.io/"

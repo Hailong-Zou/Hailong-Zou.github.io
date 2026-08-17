@@ -1,25 +1,25 @@
 # main links links
 main:
-  - title: "关于 / About"
+  - title: "About"
     url: "/#about-me"
 
-  - title: "研究 / Research"
+  - title: "Research"
     url: "/#research"
 
-  - title: "论文 / Publications"
+  - title: "Publications"
     url: "/#publications"
 
-  - title: "经历 / Experience"
+  - title: "Experience"
     url: "/#experience"
 
-  - title: "教育 / Education"
+  - title: "Education"
     url: "/#education"
 
-  - title: "荣誉 / Honors"
+  - title: "Honors"
     url: "/#honors"
 
-  - title: "技能 / Skills"
+  - title: "Skills"
     url: "/#skills"
 
-  - title: "摄影 / Photography"
+  - title: "Photography"
     url: "/#photography"

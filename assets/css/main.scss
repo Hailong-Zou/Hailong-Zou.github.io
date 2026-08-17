@@ -431,114 +431,6 @@ body {
     line-height: 1.78;
 }
 
-.intro-email {
-    position: relative;
-    z-index: 2;
-    display: inline-flex;
-    max-width: 100%;
-    align-items: center;
-    gap: .72rem;
-    margin-top: 1.35rem;
-    padding: .68rem .95rem .68rem .7rem;
-    border: 1px solid rgba(122, 23, 52, .2);
-    border-radius: 14px;
-    color: var(--hz-accent) !important;
-    background: #fff;
-    text-decoration: none !important;
-    box-shadow: 0 6px 18px rgba(54, 31, 39, .06);
-    transition: transform .2s ease, box-shadow .2s ease;
-}
-
-.intro-email__icon {
-    display: inline-flex;
-    flex: 0 0 2.35rem;
-    align-items: center;
-    justify-content: center;
-    width: 2.35rem;
-    height: 2.35rem;
-    border-radius: 50%;
-    color: #fff;
-    background: var(--hz-accent);
-}
-
-.intro-email small,
-.intro-email strong {
-    display: block;
-}
-
-.intro-email small {
-    margin-bottom: .1rem;
-    color: var(--hz-muted);
-    font-size: .62rem;
-    font-weight: 800;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-}
-
-.intro-email strong {
-    overflow-wrap: anywhere;
-    color: var(--hz-accent);
-    font-size: .86rem;
-}
-
-.intro-email:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 24px rgba(83, 20, 43, .16);
-}
-
-.identity-strip {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    margin: 1rem 0 0;
-    border: 1px solid var(--hz-line);
-    border-radius: 17px;
-    background: rgba(255, 255, 255, .82);
-    box-shadow: 0 12px 35px rgba(57, 40, 46, .045);
-}
-
-.identity-strip > div {
-    display: flex;
-    align-items: center;
-    gap: .75rem;
-    padding: .9rem 1rem;
-}
-
-.identity-strip > div + div {
-    border-left: 1px solid var(--hz-line);
-}
-
-.identity-icon {
-    display: inline-flex;
-    flex: 0 0 2.1rem;
-    align-items: center;
-    justify-content: center;
-    width: 2.1rem;
-    height: 2.1rem;
-    border-radius: 50%;
-    color: var(--hz-accent);
-    background: var(--hz-accent-soft);
-}
-
-.identity-strip p,
-.identity-strip small,
-.identity-strip strong {
-    display: block;
-    margin: 0;
-}
-
-.identity-strip small {
-    color: var(--hz-muted);
-    font-size: .63rem;
-    font-weight: 700;
-    letter-spacing: .08em;
-    text-transform: uppercase;
-}
-
-.identity-strip strong {
-    margin-top: .05rem;
-    font-size: .77rem;
-}
-
 .focus-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1066,16 +958,10 @@ body {
         font-size: 2.55rem;
     }
 
-    .identity-strip,
     .skills-grid,
     .photo-gallery,
     .page__content > ul {
         grid-template-columns: 1fr;
-    }
-
-    .identity-strip > div + div {
-        border-top: 1px solid var(--hz-line);
-        border-left: 0;
     }
 
     .photo-card:first-child,
@@ -1128,7 +1014,4 @@ body {
         max-width: 82px;
     }
 
-    .intro-email {
-        width: 100%;
-    }
 }

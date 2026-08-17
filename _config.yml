@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Hailong Zou"
-description              : "Ph.D. student at the School of Computer Science, Peking University, working on efficient AI systems, hardware-software co-design, and edge computing."
+description              : "Ph.D. Student at Peking University working on efficient AI systems, on-device and edge AI, and hardware-software co-design for foundation-model inference."
 repository               : "Hailong-Zou/Hailong-Zou.github.io"
 url                      : "https://hailong-zou.github.io"
 baseurl                  : ""
@@ -25,8 +25,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Hailong Zou"
   avatar           : "images/profile.jpg"
-  bio              : "Ph.D. Student · IF-LAB"
-  blurb            : "Building efficient AI systems across models, hardware, and the edge."
+  bio              : "Ph.D. Student · IF-Lab"
+  blurb            : "Efficient AI systems for on-device foundation-model inference and heterogeneous hardware."
   location         : "Beijing, China"
   employer         : "Peking University"
   employer_url     : "https://www.pku.edu.cn/"
@@ -34,7 +34,6 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=cE-S7Q4AAAAJ&hl=en"
   email            : "zouhailong26@stu.pku.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              : "https://hailong-zou.github.io/"
   lab              : "https://if-lab-pku.github.io/"
   bitbucket        :
   codepen          :

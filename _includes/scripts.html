@@ -1,3 +1,29 @@
 <script src="assets/js/main.min.js"></script>
 
+<script>
+  (function () {
+    var navButton = document.querySelector('#site-nav button');
+    var hiddenLinks = document.getElementById('site-nav-hidden-links');
+
+    if (!navButton || !hiddenLinks) return;
+
+    function syncNavigationState() {
+      navButton.setAttribute('aria-expanded', String(!hiddenLinks.classList.contains('hidden')));
+    }
+
+    navButton.addEventListener('click', syncNavigationState);
+    hiddenLinks.addEventListener('click', function (event) {
+      if (event.target.closest('a')) {
+        hiddenLinks.classList.add('hidden');
+        navButton.classList.remove('close');
+        syncNavigationState();
+      }
+    });
+    window.addEventListener('resize', function () {
+      window.requestAnimationFrame(syncNavigationState);
+    });
+    syncNavigationState();
+  }());
+</script>
+
 {% include analytics.html %}

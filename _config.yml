@@ -8,8 +8,8 @@
 # Site Settings
 title                    : "Hailong Zou"
 description              : "Ph.D. student at the School of Computer Science, Peking University, working on efficient AI systems, hardware-software co-design, and edge computing."
-repository               : "Hellon-ye/Hellon-ye.github.io"
-url                      : "https://hellon-ye.github.io"
+repository               : "Hailong-Zou/Hailong-Zou.github.io"
+url                      : "https://hailong-zou.github.io"
 baseurl                  : ""
 google_scholar_stats_use_cdn : false
 
@@ -34,7 +34,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=cE-S7Q4AAAAJ&hl=en"
   email            : "zouhailong26@stu.pku.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              : "https://hellon-ye.github.io/"
+  uri              : "https://hailong-zou.github.io/"
   lab              : "https://if-lab-pku.github.io/"
   bitbucket        :
   codepen          :
@@ -42,7 +42,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Hellon-ye"
+  github           : "Hailong-Zou"
   google_plus      :
   keybase          :
   instagram        :

@@ -745,19 +745,6 @@ body {
     opacity: .17;
 }
 
-.education-watermark--pair {
-    right: 5.25rem;
-}
-
-.education-watermark--pair img {
-    width: 7.6rem;
-    height: 7.6rem;
-}
-
-.education-watermark--pair img + img {
-    margin-left: -2.15rem;
-}
-
 .page__content > ul {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1114,15 +1101,6 @@ body {
         width: 7.7rem;
         height: 7.7rem;
         opacity: .095;
-    }
-
-    .education-watermark--pair {
-        right: -1.3rem;
-    }
-
-    .education-watermark--pair img {
-        width: 6.2rem;
-        height: 6.2rem;
     }
 
     .page__content > h1 {

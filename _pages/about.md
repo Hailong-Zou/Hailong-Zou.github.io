@@ -151,10 +151,7 @@ Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Ha
     </div>
   </div>
   <div class="timeline-item education-item education-item--ucas">
-    <span class="education-watermark education-watermark--pair" aria-hidden="true">
-      <img src="/images/education/ucas-seal.png" alt="">
-      <img src="/images/education/imecas-seal.png" alt="">
-    </span>
+    <span class="education-watermark" aria-hidden="true"><img src="/images/education/ucas-seal.png" alt=""></span>
     <div class="timeline-date">2023.09 - 2026.06</div>
     <div>
       <h3>University of Chinese Academy of Sciences</h3>

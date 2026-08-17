@@ -24,9 +24,9 @@ Then visit `http://127.0.0.1:4000`.
 
 ## Publish with GitHub Pages
 
-1. Create a public repository named `Hellon-ye.github.io` under the GitHub account `Hellon-ye`.
+1. Create a public repository named `Hailong-Zou.github.io` under the GitHub account `Hailong-Zou`.
 2. Push this project's `main` branch to that repository.
 3. In **Settings -> Pages**, choose **Deploy from a branch**, select `main`, and use the repository root.
-4. The site will be available at <https://hellon-ye.github.io> after GitHub Pages finishes building.
+4. The site will be available at <https://hailong-zou.github.io> after GitHub Pages finishes building.
 
 The original theme is distributed under the MIT License; see [LICENSE](LICENSE).

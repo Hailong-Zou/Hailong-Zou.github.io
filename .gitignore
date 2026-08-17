@@ -3,5 +3,7 @@ _site/
 .jekyll-cache/
 .sass-cache/
 vendor/
+!_sass/vendor/
+!_sass/vendor/**
 push.sh
 .DS_Store

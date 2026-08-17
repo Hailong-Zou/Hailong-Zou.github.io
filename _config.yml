@@ -25,7 +25,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Hailong Zou"
   avatar           : "images/profile.jpg"
-  bio              : "Ph.D. Student · PKU IF-LAB"
+  bio              : "Ph.D. Student · IF-LAB"
   blurb            : "Building efficient AI systems across models, hardware, and the edge."
   location         : "Beijing, China"
   employer         : "Peking University"

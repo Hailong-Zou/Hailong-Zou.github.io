@@ -11,7 +11,6 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
-    <div class="profile__pku-mark"><span>PKU</span><small>Peking University · 1898</small></div>
   </div>
 
   <div class="author__urls-wrapper">
@@ -22,9 +21,6 @@
       {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
-      {% endif %}
-      {% if author.employer %}
-        <li class="author__meta"><i class="fas fa-fw fa-university" aria-hidden="true"></i>{% if author.employer_url %}<a href="{{ author.employer_url }}">{{ author.employer }}</a>{% else %}{{ author.employer }}{% endif %}</li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-globe" aria-hidden="true"></i> Personal Website</a></li>

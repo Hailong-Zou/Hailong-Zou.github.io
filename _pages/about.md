@@ -13,7 +13,6 @@ redirect_from:
 <section class="intro-card">
   <div class="intro-copy">
     <div class="intro-meta">
-      <span class="pku-badge"><strong>PKU</strong><span>1898</span></span>
       <p class="intro-kicker">Ph.D. Student · Efficient AI Systems · Hardware-Software Co-Design · Edge Computing</p>
     </div>
     <h1>Hailong Zou</h1>
@@ -129,14 +128,6 @@ Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Ha
     </div>
   </div>
   <div class="timeline-item">
-    <div class="timeline-date">2024 - 2026</div>
-    <div>
-      <h3>Key Technologies for Energy-Efficient Neuromorphic Processing Chips</h3>
-      <p><strong>Core Team Member · Institute of Microelectronics, Chinese Academy of Sciences</strong></p>
-      <p>Developed a PCIe data-transfer module, integrated YOLOv3 with SpikeformerV2, and applied pretraining and quantization-aware training to reduce precision and computation costs while maintaining accuracy.</p>
-    </div>
-  </div>
-  <div class="timeline-item">
     <div class="timeline-date">2022.11 - 2023.05</div>
     <div>
       <h3>Empyrean Technology, Chengdu</h3>
@@ -151,21 +142,27 @@ Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Ha
 # Education
 
 <div class="timeline education">
-  <div class="timeline-item">
+  <div class="timeline-item education-item education-item--pku">
+    <span class="education-watermark" aria-hidden="true"><img src="/images/education/pku-seal.png" alt=""></span>
     <div class="timeline-date">2026.09 -</div>
     <div>
       <h3>Peking University</h3>
       <p>Ph.D. in Computer Science and Technology, School of Computer Science; Intelligence Fusion Laboratory (IF-Lab), advised by Prof. Xiang Chen.</p>
     </div>
   </div>
-  <div class="timeline-item">
+  <div class="timeline-item education-item education-item--ucas">
+    <span class="education-watermark education-watermark--pair" aria-hidden="true">
+      <img src="/images/education/ucas-seal.png" alt="">
+      <img src="/images/education/imecas-seal.png" alt="">
+    </span>
     <div class="timeline-date">2023.09 - 2026.06</div>
     <div>
-      <h3>Institute of Microelectronics, Chinese Academy of Sciences</h3>
-      <p>M.S. in Circuits and Systems.</p>
+      <h3>University of Chinese Academy of Sciences</h3>
+      <p>M.S. in Circuits and Systems · Institute of Microelectronics, Chinese Academy of Sciences.</p>
     </div>
   </div>
-  <div class="timeline-item">
+  <div class="timeline-item education-item education-item--whu">
+    <span class="education-watermark" aria-hidden="true"><img src="/images/education/whu-seal.png" alt=""></span>
     <div class="timeline-date">2019.09 - 2023.06</div>
     <div>
       <h3>Wuhan University</h3>
@@ -242,6 +239,6 @@ Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Ha
 </div>
 
 <footer class="site-signoff">
-  <div><span class="site-signoff__mark">HZ</span><p><strong>Hailong Zou</strong><small>Efficient AI Systems · Peking University</small></p></div>
-  <p class="site-signoff__meta">PKU · IF-LAB · Beijing</p>
+  <div><span class="site-signoff__mark">HZ</span><p><strong>Hailong Zou</strong><small>Efficient AI Systems · Hardware-Software Co-Design</small></p></div>
+  <p class="site-signoff__meta">Research · Systems · Photography</p>
 </footer>

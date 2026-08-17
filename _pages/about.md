@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "Hailong Zou - Ph.D. student at Peking University, working on efficient AI systems, model compression, and hardware-software co-design."
+excerpt: "Hailong Zou - Ph.D. student at Peking University, working on efficient AI systems, hardware-software co-design, and edge computing."
 author_profile: true
 redirect_from:
   - /about/
@@ -11,7 +11,7 @@ redirect_from:
 <span class="anchor" id="about-me"></span>
 
 <section class="intro-card">
-  <p class="intro-kicker">博士生 · 高效人工智能系统 <span>Ph.D. Student · Efficient AI Systems</span></p>
+  <p class="intro-kicker">博士生 · 高效人工智能系统 · 软硬件协同优化 · 边缘计算 <span>Ph.D. Student · Efficient AI Systems · Hardware-Software Co-Design · Edge Computing</span></p>
   <h1>邹海龙 <span>Hailong Zou</span></h1>
   <p>我将于 2026 年 9 月起在北京大学计算机学院攻读计算机科学与技术专业博士学位，加入 <a href="https://if-lab-pku.github.io/">智能融合实验室（IF-LAB）</a>，师从<a href="https://cs.pku.edu.cn/info/1092/2864.htm">陈翔教授</a>。此前，我于中国科学院微电子研究所获得电路与系统专业硕士学位，并于武汉大学获得电子信息工程专业学士学位。</p>
   <p class="en-copy">Starting in September 2026, I will pursue a Ph.D. in Computer Science and Technology at the School of Computer Science, Peking University. I am joining the <a href="https://if-lab-pku.github.io/">Intelligence Fusion Laboratory (IF-Lab)</a>, advised by <a href="https://cs.pku.edu.cn/info/1210/2865.htm">Prof. Xiang Chen</a>. I received my M.S. in Circuits and Systems from the Institute of Microelectronics, Chinese Academy of Sciences, and my B.Eng. in Electronic Information Engineering from Wuhan University.</p>
@@ -23,24 +23,19 @@ redirect_from:
 
 <div class="focus-grid">
   <div class="focus-card">
-    <h3>高效人工智能系统</h3>
-    <p>面向多模态基础模型、VLA/VLN 与生成模型的高效推理、缓存和端云协同。</p>
-    <p class="en-copy">Efficient inference, caching, and edge-cloud collaboration for multimodal foundation models, VLA/VLN, and generative models.</p>
+    <h3><span class="card-icon"><i class="fas fa-bolt" aria-hidden="true"></i></span>高效人工智能系统</h3>
+    <p>面向基础模型与智能体的高效推理、模型压缩、缓存和系统优化。</p>
+    <p class="en-copy">Efficient inference, model compression, caching, and systems optimization for foundation models and intelligent agents.</p>
   </div>
   <div class="focus-card">
-    <h3>模型压缩与部署</h3>
-    <p>二值神经网络、结构化剪枝、量化感知训练及资源受限部署。</p>
-    <p class="en-copy">Binary neural networks, structured pruning, quantization-aware training, and deployment under resource constraints.</p>
+    <h3><span class="card-icon"><i class="fas fa-microchip" aria-hidden="true"></i></span>软硬件协同优化</h3>
+    <p>围绕算法、编译、体系结构与加速器开展跨层设计和性能优化。</p>
+    <p class="en-copy">Cross-layer design and performance optimization spanning algorithms, compilers, architectures, and accelerators.</p>
   </div>
   <div class="focus-card">
-    <h3>神经形态计算</h3>
-    <p>脉冲神经网络、持续学习，以及算法在 FPGA 和神经形态平台上的实现。</p>
-    <p class="en-copy">Spiking neural networks, continual learning, and algorithm implementation on FPGA and neuromorphic platforms.</p>
-  </div>
-  <div class="focus-card">
-    <h3>软硬件协同优化</h3>
-    <p>结合算法、系统与体系结构的性能优化和设计自动化。</p>
-    <p class="en-copy">Cross-layer optimization spanning algorithms, systems, computer architecture, and design automation.</p>
+    <h3><span class="card-icon"><i class="fas fa-network-wired" aria-hidden="true"></i></span>边缘计算</h3>
+    <p>研究资源受限场景下的模型部署、端边云协同、任务划分与推理加速。</p>
+    <p class="en-copy">Model deployment, edge-cloud collaboration, workload partitioning, and inference acceleration in resource-constrained environments.</p>
   </div>
 </div>
 
@@ -190,17 +185,22 @@ Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Ha
 
 <div class="skills-grid">
   <div>
-    <h3>编程与工具 / Programming & Tools</h3>
+    <h3><span class="card-icon small"><i class="fas fa-code" aria-hidden="true"></i></span>编程与工具 / Programming & Tools</h3>
     <p class="tag-list"><span>Python</span><span>C++</span><span>C</span><span>C#</span><span>Verilog</span><span>MATLAB</span><span>TCL</span><span>Linux</span><span>Git</span><span>Vivado</span></p>
   </div>
   <div>
-    <h3>语言 / Languages</h3>
+    <h3><span class="card-icon small"><i class="fas fa-language" aria-hidden="true"></i></span>语言 / Languages</h3>
     <p>中文（母语）；英语（CET-4: 485，CET-6: 475）。</p>
     <p class="en-copy">Chinese (native); English (CET-4: 485, CET-6: 475).</p>
   </div>
   <div>
-    <h3>学生与社会服务 / Leadership & Service</h3>
+    <h3><span class="card-icon small"><i class="fas fa-users" aria-hidden="true"></i></span>学生与社会服务 / Leadership & Service</h3>
     <p>曾任武汉大学青年志愿者协会对外联络部部长，累计志愿服务 94.2 小时。</p>
     <p class="en-copy">Former Director of External Relations, Wuhan University Youth Volunteers Association; 94.2 hours of volunteer service.</p>
+  </div>
+  <div>
+    <h3><span class="card-icon small"><i class="fas fa-camera-retro" aria-hidden="true"></i></span>摄影 / Photography</h3>
+    <p>喜欢摄影，注重构图、光线与人物表达，也乐于用影像记录学术活动和日常生活。</p>
+    <p class="en-copy">I enjoy photography, with an emphasis on composition, lighting, and portrait expression, and use images to document academic events and everyday life.</p>
   </div>
 </div>

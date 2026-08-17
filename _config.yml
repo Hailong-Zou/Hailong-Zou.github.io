@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "邹海龙 | Hailong Zou"
-description              : "北京大学计算机学院 IF-LAB 博士生，研究方向包括高效人工智能系统、模型压缩与软硬件协同优化。 Ph.D. student at Peking University working on efficient AI systems."
+description              : "北京大学计算机学院 IF-LAB 博士生，研究方向包括高效人工智能系统、软硬件协同优化与边缘计算。 Ph.D. student at Peking University working on efficient AI systems, hardware-software co-design, and edge computing."
 repository               : "Hellon-ye/Hellon-ye.github.io"
 url                      : "https://hellon-ye.github.io"
 baseurl                  : ""

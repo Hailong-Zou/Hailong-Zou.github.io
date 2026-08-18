@@ -451,7 +451,7 @@ body {
 .research-card,
 .publication,
 .timeline-item,
-.skills-grid > div {
+.service-grid > div {
     border: 1px solid var(--hz-line);
     border-radius: 17px;
     background: var(--hz-card);
@@ -530,7 +530,7 @@ body {
 }
 
 .focus-card:hover,
-.skills-grid > div:hover {
+.service-grid > div:hover {
     border-color: rgba(122, 23, 52, .24);
     box-shadow: 0 17px 38px rgba(60, 29, 40, .09);
     transform: translateY(-3px);
@@ -538,7 +538,7 @@ body {
 
 .focus-card h3,
 .timeline-item h3,
-.skills-grid h3 {
+.service-grid h3 {
     margin: 0 0 .55rem;
     color: var(--hz-ink);
     font-size: 1.03rem;
@@ -546,7 +546,7 @@ body {
 }
 
 .focus-card h3,
-.skills-grid h3 {
+.service-grid h3 {
     display: flex;
     align-items: center;
     gap: .7rem;
@@ -575,7 +575,7 @@ body {
 
 .focus-card p,
 .timeline-item p,
-.skills-grid p {
+.service-grid p {
     margin-bottom: .35rem;
     color: #596273;
 }
@@ -741,36 +741,19 @@ body {
     content: "";
 }
 
-.skills-grid {
+.service-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
 }
 
-.skills-grid > div {
+.service-grid > div {
     padding: 1.25rem 1.35rem;
     transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
 }
 
-.skills-grid > div:first-child {
+.service-grid > div:first-child {
     grid-column: 1 / -1;
-}
-
-.tag-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: .5rem;
-}
-
-.tag-list span {
-    display: inline-flex;
-    padding: .33rem .68rem;
-    border: 1px solid #e3dadd;
-    border-radius: 999px;
-    color: #3f4754;
-    background: linear-gradient(180deg, #fff, #faf7f8);
-    font-size: .78rem;
-    font-weight: 700;
 }
 
 .photography-intro {
@@ -1033,14 +1016,14 @@ body {
         font-size: 25px;
     }
 
-    .skills-grid,
+    .service-grid,
     .photo-gallery,
     .page__content > ul {
         grid-template-columns: 1fr;
     }
 
     .photo-card:first-child,
-    .skills-grid > div:first-child {
+    .service-grid > div:first-child {
         grid-column: auto;
     }
 

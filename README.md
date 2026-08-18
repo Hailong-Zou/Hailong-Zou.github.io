@@ -8,7 +8,7 @@ English-language academic homepage for Hailong Zou, based on [AcadHomepage](http
 - Research interests and selected research
 - Journal articles and arXiv preprints
 - Research and industry experience
-- Education, honors, skills, and service
+- Education, honors, academic service, and photography
 - Links to GitHub, Google Scholar, ORCID, OpenReview, and PKU IF-Lab
 
 ## Local preview

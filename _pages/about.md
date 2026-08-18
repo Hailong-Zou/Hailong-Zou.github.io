@@ -202,18 +202,14 @@ Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Ha
 - **Wuhan University Social Engagement Award**, 2021-2022
 - **Outstanding Activity Organizer, China Foundation for Poverty Alleviation**, 2021-2022
 
-<span class="anchor" id="skills"></span>
+<span class="anchor" id="service"></span>
 
-## Skills & Service
+## Academic Service & Activities
 
-<div class="skills-grid">
+<div class="service-grid">
   <div>
-    <h3><span class="card-icon small"><i class="fas fa-code" aria-hidden="true"></i></span>Programming & Tools</h3>
-    <p class="tag-list"><span>Python</span><span>C / C++</span><span>Verilog</span><span>Linux</span><span>Git</span><span>MATLAB</span><span>TCL</span></p>
-  </div>
-  <div>
-    <h3><span class="card-icon small"><i class="fas fa-language" aria-hidden="true"></i></span>Languages</h3>
-    <p>Chinese (native); English.</p>
+    <h3><span class="card-icon small"><i class="fas fa-clipboard-check" aria-hidden="true"></i></span>Conference Reviewer</h3>
+    <p>Conference on Neural Information Processing Systems (NeurIPS).</p>
   </div>
   <div>
     <h3><span class="card-icon small"><i class="fas fa-users" aria-hidden="true"></i></span>Leadership & Service</h3>

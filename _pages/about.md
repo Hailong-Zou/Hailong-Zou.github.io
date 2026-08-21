@@ -22,7 +22,7 @@ redirect_from:
     </div>
     <h1 data-i18n="profile.name">Hailong Zou</h1>
     <p class="intro-lead" data-i18n-html="intro.lead">I am a Ph.D. Student in Computer Science and Technology at the School of Computer Science, Peking University, starting in September 2026. At the <a href="https://if-lab-pku.github.io/">Intelligence Fusion Laboratory (IF-Lab)</a>, I am advised by <a href="https://cs.pku.edu.cn/info/1210/2865.htm">Prof. Xiang Chen</a>. I work on efficient AI systems, with a focus on on-device foundation-model inference and hardware-software co-design for heterogeneous, resource-constrained platforms.</p>
-    <p data-i18n="intro.education">I received my M.S. in Circuits and Systems from the Institute of Microelectronics, Chinese Academy of Sciences, and my B.Eng. in Electronic Information Engineering from Wuhan University.</p>
+    <p data-i18n="intro.education">I received my M.Eng. in Circuits and Systems from the Institute of Microelectronics, Chinese Academy of Sciences, and my B.Eng. in Electronic Information Engineering from Wuhan University.</p>
   </div>
 </section>
 
@@ -183,7 +183,7 @@ Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Ha
     <div class="timeline-date">2023.09 - 2026.06</div>
     <div>
       <h3 data-i18n="education.ucas.institution">University of Chinese Academy of Sciences</h3>
-      <p data-i18n="education.ucas.description">M.S. in Circuits and Systems · Institute of Microelectronics, Chinese Academy of Sciences.</p>
+      <p data-i18n="education.ucas.description">M.Eng. in Circuits and Systems · Institute of Microelectronics, Chinese Academy of Sciences.</p>
     </div>
   </div>
   <div class="timeline-item education-item education-item--whu">

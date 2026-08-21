@@ -30,25 +30,34 @@
 <script>
   (function () {
     var ipOutput = document.getElementById('visitor-public-ip');
+    var locationOutput = document.getElementById('visitor-ip-location');
 
-    if (!ipOutput || !window.fetch) {
+    if (!ipOutput || !locationOutput || !window.fetch) {
       if (ipOutput) ipOutput.textContent = 'Unavailable';
+      if (locationOutput) locationOutput.textContent = 'Unavailable';
       return;
     }
 
-    fetch('https://api64.ipify.org?format=json', { cache: 'no-store' })
+    fetch('https://ipwho.is/', { cache: 'no-store' })
       .then(function (response) {
-        if (!response.ok) throw new Error('IP request failed');
+        if (!response.ok) throw new Error('IP location request failed');
         return response.json();
       })
       .then(function (data) {
-        if (!data || typeof data.ip !== 'string' || data.ip.length > 64) {
-          throw new Error('Invalid IP response');
+        if (!data || data.success !== true || typeof data.ip !== 'string' || data.ip.length > 64) {
+          throw new Error('Invalid IP location response');
         }
+
+        var locationParts = [data.country, data.region].filter(function (value) {
+          return typeof value === 'string' && value.trim().length > 0 && value.length <= 100;
+        });
+
         ipOutput.textContent = data.ip;
+        locationOutput.textContent = locationParts.length ? locationParts.join(' · ') : 'Unavailable';
       })
       .catch(function () {
         ipOutput.textContent = 'Unavailable';
+        locationOutput.textContent = 'Unavailable';
       });
   }());
 </script>

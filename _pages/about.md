@@ -264,14 +264,5 @@ Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Ha
       <span class="visitor-stat__label">Visitors</span>
       <strong id="busuanzi_site_uv" aria-live="polite">—</strong>
     </div>
-    <div class="visitor-stat visitor-stat--ip">
-      <span class="visitor-stat__label">IP Address</span>
-      <strong id="visitor-public-ip" aria-live="polite">Loading…</strong>
-    </div>
-    <div class="visitor-stat visitor-stat--location">
-      <span class="visitor-stat__label">Country / Region</span>
-      <strong id="visitor-ip-location" aria-live="polite">Loading…</strong>
-    </div>
   </div>
-  <p class="visitor-footer__note">Location is an approximate country and region inferred from your public IP. Each visitor sees only their own result.</p>
 </footer>

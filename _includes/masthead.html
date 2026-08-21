@@ -1,13 +1,25 @@
 <div class="masthead">
+  {% assign navigation_links = site.data.navigation.main %}
+  {% assign homepage_link = "/#about-me" %}
+  {% assign brand_name = "Hailong Zou" %}
+  {% assign navigation_label = "Primary navigation" %}
+  {% assign navigation_toggle_label = "Toggle navigation" %}
+  {% if page.lang == "zh-CN" %}
+    {% assign navigation_links = site.data.navigation.zh %}
+    {% assign homepage_link = "/zh/#about-me" %}
+    {% assign brand_name = "邹海龙" %}
+    {% assign navigation_label = "主导航" %}
+    {% assign navigation_toggle_label = "展开或收起导航" %}
+  {% endif %}
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
-        <button type="button" aria-label="Toggle navigation" aria-controls="site-nav-hidden-links" aria-expanded="false"><span class="navicon" aria-hidden="true"></span></button>
+      <nav id="site-nav" class="greedy-nav" aria-label="{{ navigation_label }}">
+        <button type="button" aria-label="{{ navigation_toggle_label }}" aria-controls="site-nav-hidden-links" aria-expanded="false"><span class="navicon" aria-hidden="true"></span></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
-            <a class="site-brand" href="#about-me"><span class="site-brand__mark" aria-hidden="true">HZ</span><span>Hailong Zou</span></a>
+            <a class="site-brand" href="{{ homepage_link }}"><span class="site-brand__mark" aria-hidden="true">HZ</span><span>{{ brand_name }}</span></a>
           </li>
-          {% for link in site.data.navigation.main %}
+          {% for link in navigation_links %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>

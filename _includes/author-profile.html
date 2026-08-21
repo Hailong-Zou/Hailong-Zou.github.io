@@ -1,29 +1,41 @@
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
+{% assign author_name = author.name %}
+{% assign author_bio = author.bio %}
+{% assign author_blurb = author.blurb %}
+{% assign author_location = author.location %}
+{% assign email_label = "Email" %}
+{% if page.lang == "zh-CN" %}
+  {% assign author_name = author.name_zh | default: author.name %}
+  {% assign author_bio = author.bio_zh | default: author.bio %}
+  {% assign author_blurb = author.blurb_zh | default: author.blurb %}
+  {% assign author_location = author.location_zh | default: author.location %}
+  {% assign email_label = "邮箱" %}
+{% endif %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
-    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
+    <img src="{{ author.avatar | relative_url }}" class="author__avatar" alt="{{ author_name }}">
   </div>
 
   <div class="author__content">
-    <p class="author__name">{{ author.name }}</p>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <p class="author__name">{{ author_name }}</p>
+    {% if author_bio %}<p class="author__bio">{{ author_bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if author.blurb %}
-        <li class="author__description">{{ author.blurb }}</li>
+      {% if author_blurb %}
+        <li class="author__description">{{ author_blurb }}</li>
       {% endif %}
-      {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+      {% if author_location %}
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author_location }}</li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ email_label }}</a></li>
       {% endif %}
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>

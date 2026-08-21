@@ -5,7 +5,18 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>Hailong Zou | Ph.D. Student at Peking University</title>
+{% assign seo_title = "Hailong Zou | Ph.D. Student at Peking University" %}
+{% assign seo_name = "Hailong Zou" %}
+{% assign seo_keywords = "Hailong Zou, Zou Hailong, Peking University, PKU, IF-Lab, efficient AI systems, foundation model inference, on-device AI, hardware-software co-design, edge computing" %}
+{% assign seo_locale = "en_US" %}
+{% if page.lang == "zh-CN" %}
+  {% assign seo_title = "邹海龙 | 北京大学计算机学院博士生" %}
+  {% assign seo_name = "邹海龙" %}
+  {% assign seo_keywords = "邹海龙, 北京大学, 计算机学院, 智能融合实验室, 高效人工智能系统, 端侧智能, 软硬件协同优化, 边缘计算, Hailong Zou, IF-Lab" %}
+  {% assign seo_locale = "zh_CN" %}
+{% endif %}
+
+<title>{{ seo_title }}</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
@@ -27,13 +38,13 @@
 {% endif %}
 
 <meta name="description" content="{{ seo_description }}">
-<meta name="author" content="Hailong Zou">
-<meta name="keywords" content="Hailong Zou, Zou Hailong, Peking University, PKU, IF-Lab, efficient AI systems, foundation model inference, on-device AI, hardware-software co-design, edge computing">
+<meta name="author" content="{{ seo_name }}">
+<meta name="keywords" content="{{ seo_keywords }}">
 <meta name="robots" content="index, follow, max-image-preview:large">
 
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="{{ seo_locale }}">
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="Hailong Zou | Ph.D. Student at Peking University">
+<meta property="og:title" content="{{ seo_title }}">
 <meta property="og:type" content="profile">
 <meta property="profile:first_name" content="Hailong">
 <meta property="profile:last_name" content="Zou">
@@ -49,7 +60,7 @@
 {% endif %}
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hailong Zou | Ph.D. Student at Peking University">
+<meta name="twitter:title" content="{{ seo_title }}">
 <meta name="twitter:description" content="{{ seo_description }}">
 <meta name="twitter:image" content="{{ site.url }}/{{ site.author.avatar }}">
 
@@ -89,7 +100,7 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Hailong Zou",
-  "alternateName": "Zou Hailong",
+  "alternateName": ["Zou Hailong", "邹海龙"],
   "url": "{{ site.url }}",
   "image": "{{ site.url }}/{{ site.author.avatar }}",
   "jobTitle": "Ph.D. Student in Computer Science and Technology",

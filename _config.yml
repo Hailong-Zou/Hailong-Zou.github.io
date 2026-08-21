@@ -24,10 +24,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Hailong Zou"
+  name_zh          : "邹海龙"
   avatar           : "images/profile.jpg"
   bio              : "Ph.D. Student · IF-Lab"
+  bio_zh           : "博士生 · IF-Lab"
   blurb            : "Efficient AI systems for on-device foundation-model inference and heterogeneous hardware."
+  blurb_zh         : "面向端侧基础模型推理与异构硬件的高效人工智能系统。"
   location         : "Beijing, China"
+  location_zh      : "中国，北京"
   employer         : "Peking University"
   employer_url     : "https://www.pku.edu.cn/"
   pubmed           : 

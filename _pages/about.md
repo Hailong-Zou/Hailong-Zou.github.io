@@ -1,5 +1,6 @@
 ---
 permalink: /
+lang: en
 title: ""
 excerpt: "Hailong Zou is a Ph.D. Student at Peking University working on efficient AI systems, on-device and edge AI, and hardware-software co-design for foundation-model inference."
 author_profile: true
@@ -14,6 +15,10 @@ redirect_from:
   <div class="intro-copy">
     <div class="intro-meta">
       <p class="intro-kicker">Ph.D. Student · Efficient AI Systems · On-device AI · Hardware-Software Co-Design</p>
+      <nav class="language-switcher" aria-label="Language selection">
+        <a href="/" lang="en" aria-current="page">EN</a>
+        <a href="/zh/" lang="zh-CN">中文</a>
+      </nav>
     </div>
     <h1>Hailong Zou</h1>
     <p class="intro-lead">I am a Ph.D. Student in Computer Science and Technology at the School of Computer Science, Peking University, starting in September 2026. At the <a href="https://if-lab-pku.github.io/">Intelligence Fusion Laboratory (IF-Lab)</a>, I am advised by <a href="https://cs.pku.edu.cn/info/1210/2865.htm">Prof. Xiang Chen</a>. I work on efficient AI systems, with a focus on on-device foundation-model inference and hardware-software co-design for heterogeneous, resource-constrained platforms.</p>

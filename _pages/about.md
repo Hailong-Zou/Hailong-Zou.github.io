@@ -260,16 +260,3 @@ Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Ha
     <figcaption><strong data-i18n="photography.4.title">Lakeside Afterglow</strong></figcaption>
   </figure>
 </div>
-
-<footer class="visitor-footer" aria-label="Visitor information" data-i18n-aria-label="visitor.label">
-  <div class="visitor-footer__stats">
-    <div class="visitor-stat">
-      <span class="visitor-stat__label" data-i18n="visitor.views">Site Views</span>
-      <strong id="busuanzi_site_pv" aria-live="polite">—</strong>
-    </div>
-    <div class="visitor-stat">
-      <span class="visitor-stat__label" data-i18n="visitor.visitors">Visitors</span>
-      <strong id="busuanzi_site_uv" aria-live="polite">—</strong>
-    </div>
-  </div>
-</footer>

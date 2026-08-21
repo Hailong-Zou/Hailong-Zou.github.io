@@ -879,47 +879,6 @@ html[lang="zh-CN"] .page__content > h3 {
     font-family: Georgia, serif;
 }
 
-.visitor-footer {
-    margin-top: 2.25rem;
-    padding: 1rem 0 .25rem;
-    border-top: 1px solid rgba(112, 22, 52, .16);
-    color: var(--hz-muted);
-}
-
-.visitor-footer__stats {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 10rem));
-    justify-content: center;
-    gap: .55rem;
-}
-
-.visitor-stat {
-    display: grid;
-    padding: .62rem .85rem;
-    border: 1px solid rgba(112, 22, 52, .12);
-    border-radius: 12px;
-    background: rgba(255, 255, 255, .76);
-    box-shadow: 0 7px 18px rgba(21, 27, 38, .045);
-    text-align: center;
-}
-
-.visitor-stat__label {
-    color: var(--hz-muted);
-    font-size: .62rem;
-    font-weight: 800;
-    letter-spacing: .09em;
-    line-height: 1.25;
-    text-transform: uppercase;
-}
-
-.visitor-stat strong {
-    margin-top: .18rem;
-    color: var(--hz-accent-deep);
-    font-family: Georgia, serif;
-    font-size: .92rem;
-    line-height: 1.3;
-}
-
 @media (min-width: 925px) {
     #main {
         display: grid;
@@ -1106,10 +1065,6 @@ html[lang="zh-CN"] .page__content > h3 {
 }
 
 @media (max-width: 520px) {
-    .visitor-footer__stats {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
     .profile_box {
         grid-template-columns: 82px minmax(0, 1fr);
         padding: .9rem;

@@ -175,7 +175,7 @@ Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Ha
     <div class="timeline-date">2026.09 -</div>
     <div>
       <h3 data-i18n="education.pku.institution">Peking University</h3>
-      <p data-i18n-html="education.pku.description">Ph.D. in Computer Science and Technology, School of Computer Science.<br><a href="https://if-lab-pku.github.io/">Intelligence Fusion Laboratory (IF-Lab)</a> · Advisor: <a href="https://cs.pku.edu.cn/info/1210/2865.htm">Prof. Xiang Chen</a>.</p>
+      <p data-i18n-html="education.pku.description">Ph.D. in Computer Science and Technology, School of Computer Science.<br><a href="https://if-lab-pku.github.io/">Intelligence Fusion Laboratory (IF-Lab)</a>, Advisor: <a href="https://cs.pku.edu.cn/info/1210/2865.htm">Prof. Xiang Chen</a>.</p>
     </div>
   </div>
   <div class="timeline-item education-item education-item--ucas">

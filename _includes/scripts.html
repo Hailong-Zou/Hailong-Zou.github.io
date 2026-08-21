@@ -27,4 +27,213 @@
   }());
 </script>
 
+<script>
+  (function () {
+    var translations = {
+      zh: {
+        "language.label": "语言选择",
+        "navigation.label": "主导航",
+        "navigation.toggle": "展开或收起导航",
+        "profile.name": "邹海龙",
+        "profile.bio": "博士生 · IF-Lab",
+        "profile.blurb": "面向端侧基础模型推理与异构硬件的高效人工智能系统。",
+        "profile.location": "中国，北京",
+        "profile.email": "邮箱",
+        "intro.kicker": "博士生 · 高效人工智能系统 · 端侧智能 · 软硬件协同优化",
+        "intro.lead": "我将于2026年9月进入北京大学计算机学院，攻读计算机科学与技术专业博士学位，并在<a href=\"https://if-lab-pku.github.io/\">智能融合实验室（IF-Lab）</a>师从<a href=\"https://cs.pku.edu.cn/info/1210/2865.htm\">陈翔教授</a>。我的研究聚焦于高效人工智能系统，重点关注端侧基础模型推理，以及面向异构、资源受限平台的软硬件协同优化。",
+        "intro.education": "我在中国科学院微电子研究所获得电路与系统专业硕士学位，在武汉大学获得电子信息工程专业工学学士学位。",
+        "section.research": "研究方向",
+        "section.selectedResearch": "代表性研究",
+        "section.publications": "论文发表",
+        "section.journalArticles": "期刊论文",
+        "section.preprints": "预印本",
+        "section.experience": "科研与实习经历",
+        "section.education": "教育经历",
+        "section.honors": "荣誉与奖励",
+        "section.service": "学术服务与社会活动",
+        "section.photography": "摄影作品",
+        "focus.efficient.title": "高效人工智能系统",
+        "focus.efficient.description": "面向基础模型的高效推理，包括大语言模型与混合专家模型系统、缓存机制，以及降低存储与计算开销的模型—系统协同技术。",
+        "focus.codesign.title": "软硬件协同优化",
+        "focus.codesign.description": "结合模型、编译器、运行时与体系结构的协同优化，面向 CPU、NPU 及各类异构加速平台提升系统效率。",
+        "focus.edge.title": "端侧与边缘智能",
+        "focus.edge.description": "研究端侧部署与端云协同，在真实的存储、内存、带宽和时延约束下提升人工智能系统的运行效率。",
+        "selected.moeca.label": "高效推理",
+        "selected.moeca.description": "针对采用混合专家路由的扩散 Transformer 在不同时间步重复执行专家分支计算的问题，MoECa 探索专家感知的特征复用与同步缓存更新，以提升扩散模型推理效率。",
+        "selected.rapid.label": "端云系统",
+        "selected.rapid.description": "针对 VLA 模型为边缘设备带来的高负载，以及传统切分方法忽略视觉噪声和步间冗余的问题，RAPID 探索面向 VLA 部署的冗余感知端云切分推理。",
+        "selected.dyq.label": "端侧智能",
+        "selected.dyq.description": "静态精度难以匹配具身任务随时间变化的敏感度。DyQ-VLA 研究时间动态感知的位宽切换与分配，以实现高效 VLA 推理。",
+        "common.paper": "论文",
+        "publications.source": "完整且持续更新的论文列表请参见我的 <a href=\"https://scholar.google.com/citations?user=cE-S7Q4AAAAJ&hl=zh-CN\">Google Scholar</a>、<a href=\"https://orcid.org/0009-0004-0090-9553\">ORCID</a> 与 <a href=\"https://openreview.net/profile?id=%7EHailong_Zou1\">OpenReview</a> 页面。",
+        "experience.iflab.institution": "北京大学智能融合实验室（IF-Lab）",
+        "experience.iflab.role": "博士生 · 导师：陈翔教授",
+        "experience.iflab.description": "研究高效人工智能系统、端侧基础模型推理、软硬件协同优化与异构加速。",
+        "experience.empyrean.institution": "华大九天，成都",
+        "experience.empyrean.role": "软件工程实习生 · BTG 团队",
+        "experience.empyrean.description": "参与 pyAether 开发，将 Aether EDA 平台的核心 C++ 能力封装为 Python API，并验证接口的正确性与覆盖度。",
+        "education.pku.institution": "北京大学",
+        "education.pku.description": "计算机学院，计算机科学与技术专业博士研究生。<br><a href=\"https://if-lab-pku.github.io/\">智能融合实验室（IF-Lab）</a> · 导师：<a href=\"https://cs.pku.edu.cn/info/1210/2865.htm\">陈翔教授</a>。",
+        "education.ucas.institution": "中国科学院大学",
+        "education.ucas.description": "电路与系统专业硕士 · 中国科学院微电子研究所。",
+        "education.whu.institution": "武汉大学",
+        "education.whu.description": "电子信息工程专业工学学士 · 卓越工程师教育培养计划。",
+        "honors.1": "<strong>中国科学院大学优秀学生</strong>，2023-2024",
+        "honors.2": "<strong>中国科学院大学优秀共青团员</strong>，2023-2024",
+        "honors.3": "<strong>湖北省大学生电子设计竞赛（TI 杯）特等奖</strong>，2020-2021",
+        "honors.4": "<strong>武汉大学优秀学生及三等奖学金</strong>，2020-2021",
+        "honors.5": "<strong>武汉大学社会活动积极分子</strong>，2021-2022",
+        "honors.6": "<strong>中国扶贫基金会优秀活动组织者</strong>，2021-2022",
+        "service.reviewer.title": "会议审稿人",
+        "service.reviewer.description": "神经信息处理系统大会（NeurIPS）。",
+        "service.leadership.title": "学生工作与志愿服务",
+        "service.leadership.description": "曾任武汉大学青年志愿者协会外联部部长。",
+        "service.photography.title": "摄影",
+        "service.photography.description": "<strong>视觉中国签约摄影师</strong>、<strong>图虫签约供稿人</strong>。",
+        "photography.intro": "部分摄影作品，点击图片可查看原图。",
+        "photography.1.title": "燕园晚霞",
+        "photography.1.alt": "燕园与博雅塔上空的晚霞",
+        "photography.2.title": "毕业典礼",
+        "photography.2.alt": "中国科学院大学毕业典礼",
+        "photography.3.title": "云下草原",
+        "photography.3.alt": "蓝天下的草原与小径",
+        "photography.4.title": "湖畔余晖",
+        "photography.4.alt": "湖面映照晚霞与远处的建筑剪影",
+        "visitor.label": "访客信息",
+        "visitor.views": "总访问量",
+        "visitor.visitors": "访客数"
+      }
+    };
+
+    var englishText = {};
+    var englishHtml = {};
+    var englishAttributes = {};
+    var storageKey = "hailong-home-language";
+
+    function rememberEnglish(selector, target, collection) {
+      document.querySelectorAll(selector).forEach(function (element) {
+        var key = element.getAttribute(target);
+        if (!(key in collection)) {
+          collection[key] = target === "data-i18n-html" ? element.innerHTML : element.textContent;
+        }
+      });
+    }
+
+    rememberEnglish("[data-i18n]", "data-i18n", englishText);
+    rememberEnglish("[data-i18n-html]", "data-i18n-html", englishHtml);
+
+    ["title", "alt", "aria-label"].forEach(function (attribute) {
+      var dataAttribute = "data-i18n-" + attribute;
+      document.querySelectorAll("[" + dataAttribute + "]").forEach(function (element) {
+        var key = element.getAttribute(dataAttribute);
+        englishAttributes[attribute + ":" + key] = element.getAttribute(attribute) || "";
+      });
+    });
+
+    var englishMetadata = {
+      title: document.title,
+      description: "Hailong Zou is a Ph.D. Student at Peking University working on efficient AI systems, on-device and edge AI, and hardware-software co-design for foundation-model inference.",
+      author: "Hailong Zou"
+    };
+    var chineseMetadata = {
+      title: "邹海龙 | 北京大学计算机学院博士生",
+      description: "邹海龙是北京大学计算机学院博士生，研究方向包括高效人工智能系统、端侧与边缘智能以及面向基础模型推理的软硬件协同优化。",
+      author: "邹海龙"
+    };
+
+    function updateMeta(selector, value) {
+      var element = document.querySelector(selector);
+      if (element) element.setAttribute("content", value);
+    }
+
+    function setLanguage(language, updateAddress) {
+      var isChinese = language === "zh";
+      var dictionary = isChinese ? translations.zh : {};
+
+      document.documentElement.lang = isChinese ? "zh-CN" : "en";
+
+      document.querySelectorAll("[data-i18n]").forEach(function (element) {
+        var key = element.getAttribute("data-i18n");
+        if (isChinese && dictionary[key] !== undefined) {
+          element.textContent = dictionary[key];
+        } else if (englishText[key] !== undefined) {
+          element.textContent = englishText[key];
+        }
+      });
+
+      document.querySelectorAll("[data-i18n-html]").forEach(function (element) {
+        var key = element.getAttribute("data-i18n-html");
+        if (isChinese && dictionary[key] !== undefined) {
+          element.innerHTML = dictionary[key];
+        } else if (englishHtml[key] !== undefined) {
+          element.innerHTML = englishHtml[key];
+        }
+      });
+
+      document.querySelectorAll("[data-lang-en][data-lang-zh]").forEach(function (element) {
+        element.textContent = element.getAttribute(isChinese ? "data-lang-zh" : "data-lang-en");
+      });
+
+      ["title", "alt", "aria-label"].forEach(function (attribute) {
+        var dataAttribute = "data-i18n-" + attribute;
+        document.querySelectorAll("[" + dataAttribute + "]").forEach(function (element) {
+          var key = element.getAttribute(dataAttribute);
+          var translated = dictionary[key];
+          element.setAttribute(attribute, isChinese && translated !== undefined ? translated : englishAttributes[attribute + ":" + key]);
+        });
+      });
+
+      document.querySelectorAll("[data-language-option]").forEach(function (button) {
+        button.setAttribute("aria-pressed", String(button.getAttribute("data-language-option") === language));
+      });
+
+      var metadata = isChinese ? chineseMetadata : englishMetadata;
+      document.title = metadata.title;
+      updateMeta('meta[name="description"]', metadata.description);
+      updateMeta('meta[name="author"]', metadata.author);
+      updateMeta('meta[property="og:title"]', metadata.title);
+      updateMeta('meta[property="og:description"]', metadata.description);
+      updateMeta('meta[property="og:locale"]', isChinese ? "zh_CN" : "en_US");
+      updateMeta('meta[name="twitter:title"]', metadata.title);
+      updateMeta('meta[name="twitter:description"]', metadata.description);
+
+      try {
+        window.localStorage.setItem(storageKey, language);
+      } catch (error) {
+        /* Language switching still works when storage is unavailable. */
+      }
+
+      if (updateAddress && window.history && window.history.replaceState) {
+        var url = new URL(window.location.href);
+        if (isChinese) {
+          url.searchParams.set("lang", "zh");
+        } else {
+          url.searchParams.delete("lang");
+        }
+        window.history.replaceState({}, "", url.pathname + url.search + url.hash);
+      }
+
+      window.dispatchEvent(new CustomEvent("homepage:languagechange", { detail: { language: language } }));
+    }
+
+    document.querySelectorAll("[data-language-option]").forEach(function (button) {
+      button.addEventListener("click", function () {
+        setLanguage(button.getAttribute("data-language-option"), true);
+      });
+    });
+
+    var initialLanguage = "en";
+    try {
+      var requestedLanguage = new URL(window.location.href).searchParams.get("lang");
+      var storedLanguage = window.localStorage.getItem(storageKey);
+      if (requestedLanguage === "zh" || (!requestedLanguage && storedLanguage === "zh")) {
+        initialLanguage = "zh";
+      }
+    } catch (error) {
+      /* English remains the no-storage fallback. */
+    }
+    setLanguage(initialLanguage, initialLanguage === "zh");
+  }());
+</script>
+
 {% include analytics.html %}

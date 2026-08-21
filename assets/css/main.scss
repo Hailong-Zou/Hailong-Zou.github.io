@@ -417,17 +417,53 @@ body {
     line-height: 1.4;
 }
 
-.language-switcher a {
+.language-switcher button {
+    appearance: none;
     padding: .08rem .02rem .12rem;
+    border: 0;
     border-bottom: 1px solid transparent;
     color: #8a8f99;
+    background: transparent;
+    font: inherit;
+    line-height: inherit;
+    cursor: pointer;
     text-decoration: none;
 }
 
-.language-switcher a:hover,
-.language-switcher a[aria-current="page"] {
+.language-switcher button:hover,
+.language-switcher button:focus-visible,
+.language-switcher button[aria-pressed="true"] {
     border-bottom-color: var(--hz-accent);
     color: var(--hz-accent);
+}
+
+.language-switcher button:focus-visible {
+    outline: 2px solid rgba(122, 23, 52, .25);
+    outline-offset: 3px;
+}
+
+html[lang="zh-CN"] body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+}
+
+html[lang="zh-CN"] .author__name,
+html[lang="zh-CN"] .site-brand,
+html[lang="zh-CN"] .intro-card h1,
+html[lang="zh-CN"] .page__content > h2,
+html[lang="zh-CN"] .page__content h3 {
+    font-family: "Songti SC", "Noto Serif CJK SC", "STSong", Georgia, serif !important;
+    letter-spacing: 0;
+}
+
+html[lang="zh-CN"] .page__content {
+    line-height: 1.85;
+}
+
+html[lang="zh-CN"] .intro-kicker,
+html[lang="zh-CN"] .research-label,
+html[lang="zh-CN"] .page__content > h3 {
+    letter-spacing: .04em;
+    text-transform: none;
 }
 
 .intro-kicker {

@@ -183,7 +183,7 @@ Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Ha
     <div class="timeline-date">2023.09 - 2026.06</div>
     <div>
       <h3 data-i18n="education.ucas.institution">University of Chinese Academy of Sciences</h3>
-      <p data-i18n="education.ucas.description">M.Eng. in Circuits and Systems. Institute of Microelectronics, Chinese Academy of Sciences.</p>
+      <p data-i18n="education.ucas.description">M.Eng. in Circuits and Systems, Institute of Microelectronics, Chinese Academy of Sciences.</p>
     </div>
   </div>
   <div class="timeline-item education-item education-item--whu">

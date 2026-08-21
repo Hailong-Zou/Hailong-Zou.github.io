@@ -1,4 +1,5 @@
 <script src="assets/js/main.min.js"></script>
+<script defer src="https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js"></script>
 
 <script>
   (function () {
@@ -23,6 +24,32 @@
       window.requestAnimationFrame(syncNavigationState);
     });
     syncNavigationState();
+  }());
+</script>
+
+<script>
+  (function () {
+    var ipOutput = document.getElementById('visitor-public-ip');
+
+    if (!ipOutput || !window.fetch) {
+      if (ipOutput) ipOutput.textContent = 'Unavailable';
+      return;
+    }
+
+    fetch('https://api64.ipify.org?format=json', { cache: 'no-store' })
+      .then(function (response) {
+        if (!response.ok) throw new Error('IP request failed');
+        return response.json();
+      })
+      .then(function (data) {
+        if (!data || typeof data.ip !== 'string' || data.ip.length > 64) {
+          throw new Error('Invalid IP response');
+        }
+        ipOutput.textContent = data.ip;
+      })
+      .catch(function () {
+        ipOutput.textContent = 'Unavailable';
+      });
   }());
 </script>
 

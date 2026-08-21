@@ -254,7 +254,20 @@ Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Ha
   </figure>
 </div>
 
-<footer class="site-signoff">
-  <div><span class="site-signoff__mark">HZ</span><p><strong>Hailong Zou</strong><small>Efficient AI Systems · Hardware-Software Co-Design</small></p></div>
-  <p class="site-signoff__meta">Research · Systems · Photography</p>
+<footer class="visitor-footer" aria-label="Visitor information">
+  <div class="visitor-footer__stats">
+    <div class="visitor-stat">
+      <span class="visitor-stat__label">Site Views</span>
+      <strong id="busuanzi_site_pv" aria-live="polite">—</strong>
+    </div>
+    <div class="visitor-stat">
+      <span class="visitor-stat__label">Visitors</span>
+      <strong id="busuanzi_site_uv" aria-live="polite">—</strong>
+    </div>
+    <div class="visitor-stat visitor-stat--ip">
+      <span class="visitor-stat__label">Your Public IP</span>
+      <strong id="visitor-public-ip" aria-live="polite">Loading…</strong>
+    </div>
+  </div>
+  <p class="visitor-footer__note">Each visitor sees only their own current public IP; this site does not publish a visitor IP list.</p>
 </footer>

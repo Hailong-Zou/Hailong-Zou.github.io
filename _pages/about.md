@@ -106,14 +106,44 @@ Jun Li, Qiang Li, Yiying Jiang, Jionghao Zhang, **Hailong Zou**, Mengdie Tao, Li
 *Applied Sciences*, 16(4): 2021, 2026. [Paper](https://doi.org/10.3390/app16042021)
 </div>
 
+<h3 data-lang-en="Conference Papers" data-lang-zh="会议论文">Conference Papers</h3>
+
+<div class="publication" markdown="1">
+<span class="venue">ACM Multimedia · 2026</span>
+
+#### [EchoCache: Energy-Guided Cross-Modal Caching for Efficient Audio-Driven Video Generation](https://doi.org/10.1145/3767308.3835504)
+
+Jiayu Chen, Xiaoyu Wu, Rongshan Gao, Maoliang Li, Zihao Zheng, Xinhao Sun, **Hailong Zou**, Guojie Luo, Xiang Chen
+
+*Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, 2026. [Paper](https://doi.org/10.1145/3767308.3835504) [arXiv](https://arxiv.org/abs/2608.02474)
+</div>
+
+<div class="publication" markdown="1">
+<span class="venue">ACM Multimedia · 2026</span>
+
+#### [MoECa: Aligning Feature Reuse with Expert Decomposition in Diffusion Transformers](https://arxiv.org/abs/2606.15615)
+
+Maoliang Li, Haojing Chen, Jiayu Chen, Zihao Zheng, Xinhao Sun, **Hailong Zou**, Xiang Chen
+
+*ACM International Conference on Multimedia (ACM MM)*, 2026. [arXiv](https://arxiv.org/abs/2606.15615)
+</div>
+
 <h3 data-i18n="section.preprints">Preprints</h3>
 
 <div class="publication compact" markdown="1">
 <span class="venue">arXiv · 2026</span>
 
-#### [MoECa: Aligning Feature Reuse with Expert Decomposition in Diffusion Transformers](https://arxiv.org/abs/2606.15615)
+#### [When and Where to Look: Adaptive Visual Evidence Scheduling for Efficient Long Video Understanding](https://arxiv.org/abs/2608.03918)
 
-Maoliang Li, Haojing Chen, Jiayu Chen, Zihao Zheng, Xinhao Sun, **Hailong Zou**, Xiang Chen. *arXiv preprint*, 2026. [arXiv](https://arxiv.org/abs/2606.15615)
+Ke Li, Jiayu Chen, Maoliang Li, Zihao Zheng, **Hailong Zou**, Hengyi Zhang, Xuanzhe Liu, Xiang Chen. *arXiv preprint*, 2026. [arXiv](https://arxiv.org/abs/2608.03918)
+</div>
+
+<div class="publication compact" markdown="1">
+<span class="venue">arXiv · 2026</span>
+
+#### [GOMA: Geometrically Optimal Mapping via Analytical Modeling for Spatial Accelerators](https://arxiv.org/abs/2603.07962)
+
+Wulve Yang, **Hailong Zou**, Rui Zhou, Jionghao Zhang, Qiang Li, Gang Li, Yi Zhan, Shushan Qiao. *arXiv preprint*, 2026. [arXiv](https://arxiv.org/abs/2603.07962)
 </div>
 
 <div class="publication compact" markdown="1">

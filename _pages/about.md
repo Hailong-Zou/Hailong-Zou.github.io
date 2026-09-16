@@ -84,7 +84,7 @@ redirect_from:
     </div>
   </div>
   <div class="timeline-item experience-item experience-item--imecas">
-    <span class="experience-watermark" aria-hidden="true"><img src="/images/experience/imecas-logo.png" alt=""></span>
+    <span class="experience-watermark" aria-hidden="true"><img src="/images/experience/imecas-standard-combination.png" alt=""></span>
     <div class="timeline-date">2024.07 - 2026.06</div>
     <div>
       <h3 data-i18n="experience.neuromorphic.institution">Institute of Microelectronics, Chinese Academy of Sciences</h3>

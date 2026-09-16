@@ -83,6 +83,14 @@ redirect_from:
     </div>
   </div>
   <div class="timeline-item">
+    <div class="timeline-date">2024.07 - 2026.06</div>
+    <div>
+      <h3 data-i18n="experience.neuromorphic.institution">Institute of Microelectronics, Chinese Academy of Sciences</h3>
+      <p><strong data-i18n="experience.neuromorphic.role">Core Team Member · Energy-Efficient Neuromorphic Processing Chip Project</strong></p>
+      <p data-i18n="experience.neuromorphic.description">Developed a PCIe host-to-DDR data-transfer module and optimized YOLOv3-SpikeformerV2 through pretraining and quantization-aware training.</p>
+    </div>
+  </div>
+  <div class="timeline-item">
     <div class="timeline-date">2022.11 - 2023.05</div>
     <div>
       <h3 data-i18n="experience.empyrean.institution">Empyrean Technology, Chengdu</h3>

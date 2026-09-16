@@ -882,7 +882,18 @@ html[lang="zh-CN"] .page__content > h3 {
     opacity: .12;
 }
 
+.experience-item--imecas .experience-watermark {
+    width: 7rem;
+    height: 7rem;
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
 .experience-item--imecas .experience-watermark img {
+    width: auto;
+    height: 120%;
+    flex: 0 0 auto;
     opacity: .2;
 }
 
@@ -1185,6 +1196,12 @@ html[lang="zh-CN"] .page__content > h3 {
 
     .experience-item--imecas .experience-watermark img {
         opacity: .1;
+    }
+
+    .experience-item--imecas .experience-watermark {
+        right: -1.15rem;
+        width: 6.5rem;
+        height: 6.5rem;
     }
 
     .experience-item--empyrean .experience-watermark img {

@@ -73,8 +73,9 @@ redirect_from:
 
 <h2 data-i18n="section.experience">Research &amp; Industry Experience</h2>
 
-<div class="timeline">
-  <div class="timeline-item">
+<div class="timeline experience">
+  <div class="timeline-item experience-item experience-item--pkucs">
+    <span class="experience-watermark" aria-hidden="true"><img src="/images/experience/pkucs-logo.png" alt=""></span>
     <div class="timeline-date">2026.09 -</div>
     <div>
       <h3 data-i18n="experience.iflab.institution">Intelligence Fusion Laboratory (IF-Lab), Peking University</h3>
@@ -82,7 +83,8 @@ redirect_from:
       <p data-i18n="experience.iflab.description">Research on efficient AI systems, on-device foundation-model inference, hardware-software co-design, and heterogeneous acceleration.</p>
     </div>
   </div>
-  <div class="timeline-item">
+  <div class="timeline-item experience-item experience-item--imecas">
+    <span class="experience-watermark" aria-hidden="true"><img src="/images/experience/imecas-logo.png" alt=""></span>
     <div class="timeline-date">2024.07 - 2026.06</div>
     <div>
       <h3 data-i18n="experience.neuromorphic.institution">Institute of Microelectronics, Chinese Academy of Sciences</h3>
@@ -90,7 +92,8 @@ redirect_from:
       <p data-i18n="experience.neuromorphic.description">Developed a PCIe host-to-DDR data-transfer module and optimized YOLOv3-SpikeformerV2 through pretraining and quantization-aware training.</p>
     </div>
   </div>
-  <div class="timeline-item">
+  <div class="timeline-item experience-item experience-item--empyrean">
+    <span class="experience-watermark" aria-hidden="true"><img src="/images/experience/empyrean-logo.png" alt=""></span>
     <div class="timeline-date">2022.11 - 2023.05</div>
     <div>
       <h3 data-i18n="experience.empyrean.institution">Empyrean Technology, Chengdu</h3>

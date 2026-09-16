@@ -707,6 +707,10 @@ html[lang="zh-CN"] .page__content > h3 {
     gap: 1rem;
 }
 
+.timeline.education {
+    grid-auto-rows: 1fr;
+}
+
 .timeline-item {
     display: grid;
     grid-template-columns: 130px minmax(0, 1fr);
@@ -731,7 +735,8 @@ html[lang="zh-CN"] .page__content > h3 {
     position: relative;
     width: 100%;
     min-width: 0;
-    min-height: 7.5rem;
+    min-height: 8rem;
+    align-items: center;
     overflow: hidden;
     box-sizing: border-box;
     border-left: 4px solid var(--hz-gold);
@@ -744,7 +749,6 @@ html[lang="zh-CN"] .page__content > h3 {
 }
 
 .education .education-item--pku {
-    min-height: 8rem;
     border-left-color: #8f1738;
 }
 
@@ -762,15 +766,19 @@ html[lang="zh-CN"] .page__content > h3 {
     top: 50%;
     right: 6.5rem;
     display: flex;
+    width: 7rem;
+    height: 7rem;
     align-items: center;
+    justify-content: center;
     transform: translateY(-50%);
     pointer-events: none;
 }
 
 .education-watermark img {
     display: block;
-    width: 7rem;
-    height: 7rem;
+    width: 100%;
+    height: 100%;
+    max-width: none;
     object-fit: contain;
     opacity: .17;
 }
@@ -1050,11 +1058,11 @@ html[lang="zh-CN"] .page__content > h3 {
 
     .education-watermark {
         right: -1.15rem;
+        width: 6.5rem;
+        height: 6.5rem;
     }
 
     .education-watermark img {
-        width: 6.5rem;
-        height: 6.5rem;
         opacity: .095;
     }
 

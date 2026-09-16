@@ -1,0 +1,7 @@
+{% assign publication = include.publication %}
+<div class="publication{% if include.compact or publication.compact %} compact{% endif %}" data-publication-id="{{ publication.id }}">
+  <span class="venue">{{ publication.venue }} · {{ publication.year }}</span>
+  <h4><a href="{{ publication.url }}">{{ publication.title }}</a></h4>
+  <p class="publication-authors">{% for author in publication.authors %}{% if author == site.author.name %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if publication.citation_inline %}. {{ publication.citation_html }}{% for link in publication.links %} <a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}{% endif %}</p>
+  {% unless publication.citation_inline %}<p>{{ publication.citation_html }}{% for link in publication.links %} <a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}</p>{% endunless %}
+</div>

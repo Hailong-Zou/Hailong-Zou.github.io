@@ -1,0 +1,155 @@
+- id: mafnet
+  category: journal
+  venue: "Information Sciences"
+  year: "2026"
+  title: "MAFNet: Mamba-based Asymmetric Fusion Network for Event-based Motion Deblurring"
+  url: "https://doi.org/10.1016/j.ins.2026.123853"
+  authors: ["Qihang Jiang", "Ye Zhao", "Weiliang Meng", "Ziang Wang", "Yumeng Ren", "Yulin Zhang", "Hailong Zou", "Shushan Qiao"]
+  citation_html: "<em>Information Sciences</em>, 756: 123853, 2026."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1016/j.ins.2026.123853"
+
+- id: c-dpss
+  category: journal
+  venue: "Neurocomputing"
+  year: "2026"
+  title: "C-DPSS: Channel Dual-Phase Sparsity Pruning Framework for Spiking Neural Networks"
+  url: "https://doi.org/10.1016/j.neucom.2026.134101"
+  authors: ["Jun Li", "Qiang Li", "Yiying Jiang", "Jionghao Zhang", "Hailong Zou", "Mengdie Tao", "Liang Wang", "Hang Ran", "Gang Li", "Zhe Zhang", "Bingchen Zhang", "Yi Zhan", "Shushan Qiao"]
+  citation_html: "<em>Neurocomputing</em>, 696: 134101, 2026."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1016/j.neucom.2026.134101"
+
+- id: sskd
+  category: journal
+  venue: "Applied Sciences"
+  year: "2026"
+  title: "SSKD: Stepwise Self-Knowledge Distillation for Binary Neural Networks in Keyword Spotting"
+  url: "https://doi.org/10.3390/app16042021"
+  authors: ["Hailong Zou", "Jionghao Zhang", "Jun Li", "Hang Ran", "Wulve Yang", "Rui Zhou", "Zenghui Yu", "Yi Zhan", "Shushan Qiao"]
+  citation_html: "<em>Applied Sciences</em>, 16(4): 2021, 2026."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.3390/app16042021"
+
+- id: echocache
+  category: conference
+  venue: "ACM Multimedia"
+  year: "2026"
+  title: "EchoCache: Energy-Guided Cross-Modal Caching for Efficient Audio-Driven Video Generation"
+  url: "https://doi.org/10.1145/3767308.3835504"
+  authors: ["Jiayu Chen", "Xiaoyu Wu", "Rongshan Gao", "Maoliang Li", "Zihao Zheng", "Xinhao Sun", "Hailong Zou", "Guojie Luo", "Xiang Chen"]
+  citation_html: "<em>Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)</em>, 2026."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1145/3767308.3835504"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2608.02474"
+  show_on_home: true
+  home_order: 3
+
+- id: moeca
+  category: conference
+  venue: "ACM Multimedia"
+  year: "2026"
+  title: "MoECa: Aligning Feature Reuse with Expert Decomposition in Diffusion Transformers"
+  url: "https://arxiv.org/abs/2606.15615"
+  authors: ["Maoliang Li", "Haojing Chen", "Jiayu Chen", "Zihao Zheng", "Xinhao Sun", "Hailong Zou", "Xiang Chen"]
+  citation_html: "<em>ACM International Conference on Multimedia (ACM MM)</em>, 2026."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2606.15615"
+  show_on_home: true
+  home_order: 4
+
+- id: bigmomo
+  category: preprint
+  venue: "arXiv"
+  year: "2026"
+  title: "BigMoMo: Efficient Inference of Large-Scale MoE with Speculative Decoding on Mobile Devices"
+  url: "https://arxiv.org/abs/2609.14643"
+  authors: ["Maoliang Li", "Hailong Zou", "Taohong Han", "Haoze Chi", "Jiayu Chen", "Zihao Zheng", "Jie Zhang", "Guojie Luo", "Xiang Chen"]
+  citation_html: "<em>arXiv preprint</em>, 2026."
+  citation_inline: true
+  compact: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2609.14643"
+  show_on_home: true
+  home_order: 1
+
+- id: ecoframe
+  category: preprint
+  venue: "arXiv"
+  year: "2026"
+  title: "When and Where to Look: Adaptive Visual Evidence Scheduling for Efficient Long Video Understanding"
+  url: "https://arxiv.org/abs/2608.03918"
+  authors: ["Ke Li", "Jiayu Chen", "Maoliang Li", "Zihao Zheng", "Hailong Zou", "Hengyi Zhang", "Xuanzhe Liu", "Xiang Chen"]
+  citation_html: "<em>arXiv preprint</em>, 2026."
+  citation_inline: true
+  compact: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2608.03918"
+  show_on_home: true
+  home_order: 2
+
+- id: goma
+  category: preprint
+  venue: "arXiv"
+  year: "2026"
+  title: "GOMA: Geometrically Optimal Mapping via Analytical Modeling for Spatial Accelerators"
+  url: "https://arxiv.org/abs/2603.07962"
+  authors: ["Wulve Yang", "Hailong Zou", "Rui Zhou", "Jionghao Zhang", "Qiang Li", "Gang Li", "Yi Zhan", "Shushan Qiao"]
+  citation_html: "<em>arXiv preprint</em>, 2026."
+  citation_inline: true
+  compact: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2603.07962"
+  show_on_home: true
+  home_order: 5
+
+- id: rapid
+  category: preprint
+  venue: "arXiv"
+  year: "2026"
+  title: "RAPID: Redundancy-Aware and Compatibility-Optimal Edge-Cloud Partitioned Inference for Diverse VLA Models"
+  url: "https://arxiv.org/abs/2603.07949"
+  authors: ["Zihao Zheng", "Sicheng Tian", "Hangyu Cao", "Chenyue Li", "Jiayu Chen", "Maoliang Li", "Xinhao Sun", "Hailong Zou", "Guojie Luo", "Xiang Chen"]
+  citation_html: "<em>arXiv preprint</em>, 2026."
+  citation_inline: true
+  compact: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2603.07949"
+
+- id: dyq-vla
+  category: preprint
+  venue: "arXiv"
+  year: "2026"
+  title: "DyQ-VLA: Temporal-Dynamic-Aware Quantization for Embodied Vision-Language-Action Models"
+  url: "https://arxiv.org/abs/2603.07904"
+  authors: ["Zihao Zheng", "Hangyu Cao", "Sicheng Tian", "Jiayu Chen", "Maoliang Li", "Xinhao Sun", "Hailong Zou", "Zhaobo Zhang", "Xuanzhe Liu", "Donggang Cao", "Hong Mei", "Xiang Chen"]
+  citation_html: "<em>arXiv preprint</em>, 2026."
+  citation_inline: true
+  compact: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2603.07904"
+
+- id: vln-cache
+  category: preprint
+  venue: "arXiv"
+  year: "2026"
+  title: "VLN-Cache: Enabling Token Caching for VLN Models with Visual/Semantic Dynamics Awareness"
+  url: "https://arxiv.org/abs/2603.07080"
+  authors: ["Zihao Zheng", "Zhihao Mao", "Xingyue Zhou", "Jiayu Chen", "Maoliang Li", "Xinhao Sun", "Hailong Zou", "Zhaobo Zhang", "Xuanzhe Liu", "Donggang Cao", "Hong Mei", "Xiang Chen"]
+  citation_html: "<em>arXiv preprint</em>, 2026."
+  citation_inline: true
+  compact: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2603.07080"

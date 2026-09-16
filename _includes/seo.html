@@ -5,7 +5,7 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-{% assign seo_title = "Hailong Zou | Ph.D. Student at Peking University" %}
+{% assign seo_title = page.seo_title | default: page.title | default: "Hailong Zou | Ph.D. Student at Peking University" %}
 {% assign seo_name = "Hailong Zou" %}
 {% assign seo_keywords = "Hailong Zou, Zou Hailong, Peking University, PKU, IF-Lab, efficient AI systems, foundation model inference, on-device AI, hardware-software co-design, edge computing" %}
 {% assign seo_locale = "en_US" %}

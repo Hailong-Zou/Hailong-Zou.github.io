@@ -60,113 +60,14 @@ redirect_from:
 
 <span class="anchor" id="publications"></span>
 
-<h2 data-i18n="section.publications">Publications</h2>
+<h2 data-i18n="section.recentPublications">Recent Publications</h2>
 
-<h3 data-i18n="section.journalArticles">Journal Articles</h3>
+{% assign recent_publications = site.data.publications | where: "show_on_home", true | sort: "home_order" %}
+{% for publication in recent_publications %}
+{% include publication-card.html publication=publication compact=true %}
+{% endfor %}
 
-<div class="publication" markdown="1">
-<span class="venue">Information Sciences · 2026</span>
-
-#### [MAFNet: Mamba-based Asymmetric Fusion Network for Event-based Motion Deblurring](https://doi.org/10.1016/j.ins.2026.123853)
-
-Qihang Jiang, Ye Zhao, Weiliang Meng, Ziang Wang, Yumeng Ren, Yulin Zhang, **Hailong Zou**, Shushan Qiao
-
-*Information Sciences*, 756: 123853, 2026. [Paper](https://doi.org/10.1016/j.ins.2026.123853)
-</div>
-
-<div class="publication" markdown="1">
-<span class="venue">Neurocomputing · 2026</span>
-
-#### [C-DPSS: Channel Dual-Phase Sparsity Pruning Framework for Spiking Neural Networks](https://doi.org/10.1016/j.neucom.2026.134101)
-
-Jun Li, Qiang Li, Yiying Jiang, Jionghao Zhang, **Hailong Zou**, Mengdie Tao, Liang Wang, Hang Ran, Gang Li, Zhe Zhang, Bingchen Zhang, Yi Zhan, Shushan Qiao
-
-*Neurocomputing*, 696: 134101, 2026. [Paper](https://doi.org/10.1016/j.neucom.2026.134101)
-</div>
-
-<div class="publication" markdown="1">
-<span class="venue">Applied Sciences · 2026</span>
-
-#### [SSKD: Stepwise Self-Knowledge Distillation for Binary Neural Networks in Keyword Spotting](https://doi.org/10.3390/app16042021)
-
-**Hailong Zou**, Jionghao Zhang, Jun Li, Hang Ran, Wulve Yang, Rui Zhou, Zenghui Yu, Yi Zhan, Shushan Qiao
-
-*Applied Sciences*, 16(4): 2021, 2026. [Paper](https://doi.org/10.3390/app16042021)
-</div>
-
-<h3 data-lang-en="Conference Papers" data-lang-zh="会议论文">Conference Papers</h3>
-
-<div class="publication" markdown="1">
-<span class="venue">ACM Multimedia · 2026</span>
-
-#### [EchoCache: Energy-Guided Cross-Modal Caching for Efficient Audio-Driven Video Generation](https://doi.org/10.1145/3767308.3835504)
-
-Jiayu Chen, Xiaoyu Wu, Rongshan Gao, Maoliang Li, Zihao Zheng, Xinhao Sun, **Hailong Zou**, Guojie Luo, Xiang Chen
-
-*Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, 2026. [Paper](https://doi.org/10.1145/3767308.3835504) [arXiv](https://arxiv.org/abs/2608.02474)
-</div>
-
-<div class="publication" markdown="1">
-<span class="venue">ACM Multimedia · 2026</span>
-
-#### [MoECa: Aligning Feature Reuse with Expert Decomposition in Diffusion Transformers](https://arxiv.org/abs/2606.15615)
-
-Maoliang Li, Haojing Chen, Jiayu Chen, Zihao Zheng, Xinhao Sun, **Hailong Zou**, Xiang Chen
-
-*ACM International Conference on Multimedia (ACM MM)*, 2026. [arXiv](https://arxiv.org/abs/2606.15615)
-</div>
-
-<h3 data-i18n="section.preprints">Preprints</h3>
-
-<div class="publication compact" markdown="1">
-<span class="venue">arXiv · 2026</span>
-
-#### [BigMoMo: Efficient Inference of Large-Scale MoE with Speculative Decoding on Mobile Devices](https://arxiv.org/abs/2609.14643)
-
-Maoliang Li, **Hailong Zou**, Taohong Han, Haoze Chi, Jiayu Chen, Zihao Zheng, Jie Zhang, Guojie Luo, Xiang Chen. *arXiv preprint*, 2026. [arXiv](https://arxiv.org/abs/2609.14643)
-</div>
-
-<div class="publication compact" markdown="1">
-<span class="venue">arXiv · 2026</span>
-
-#### [When and Where to Look: Adaptive Visual Evidence Scheduling for Efficient Long Video Understanding](https://arxiv.org/abs/2608.03918)
-
-Ke Li, Jiayu Chen, Maoliang Li, Zihao Zheng, **Hailong Zou**, Hengyi Zhang, Xuanzhe Liu, Xiang Chen. *arXiv preprint*, 2026. [arXiv](https://arxiv.org/abs/2608.03918)
-</div>
-
-<div class="publication compact" markdown="1">
-<span class="venue">arXiv · 2026</span>
-
-#### [GOMA: Geometrically Optimal Mapping via Analytical Modeling for Spatial Accelerators](https://arxiv.org/abs/2603.07962)
-
-Wulve Yang, **Hailong Zou**, Rui Zhou, Jionghao Zhang, Qiang Li, Gang Li, Yi Zhan, Shushan Qiao. *arXiv preprint*, 2026. [arXiv](https://arxiv.org/abs/2603.07962)
-</div>
-
-<div class="publication compact" markdown="1">
-<span class="venue">arXiv · 2026</span>
-
-#### [RAPID: Redundancy-Aware and Compatibility-Optimal Edge-Cloud Partitioned Inference for Diverse VLA Models](https://arxiv.org/abs/2603.07949)
-
-Zihao Zheng, Sicheng Tian, Hangyu Cao, Chenyue Li, Jiayu Chen, Maoliang Li, Xinhao Sun, **Hailong Zou**, Guojie Luo, Xiang Chen. *arXiv preprint*, 2026. [arXiv](https://arxiv.org/abs/2603.07949)
-</div>
-
-<div class="publication compact" markdown="1">
-<span class="venue">arXiv · 2026</span>
-
-#### [DyQ-VLA: Temporal-Dynamic-Aware Quantization for Embodied Vision-Language-Action Models](https://arxiv.org/abs/2603.07904)
-
-Zihao Zheng, Hangyu Cao, Sicheng Tian, Jiayu Chen, Maoliang Li, Xinhao Sun, **Hailong Zou**, Zhaobo Zhang, Xuanzhe Liu, Donggang Cao, Hong Mei, Xiang Chen. *arXiv preprint*, 2026. [arXiv](https://arxiv.org/abs/2603.07904)
-</div>
-
-<div class="publication compact" markdown="1">
-<span class="venue">arXiv · 2026</span>
-
-#### [VLN-Cache: Enabling Token Caching for VLN Models with Visual/Semantic Dynamics Awareness](https://arxiv.org/abs/2603.07080)
-
-Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Hailong Zou**, Zhaobo Zhang, Xuanzhe Liu, Donggang Cao, Hong Mei, Xiang Chen. *arXiv preprint*, 2026. [arXiv](https://arxiv.org/abs/2603.07080)
-</div>
-
-<p class="source-note" data-i18n-html="publications.source">For the complete and current publication list, please visit <a href="https://scholar.google.com/citations?user=cE-S7Q4AAAAJ&hl=en">Google Scholar</a>, <a href="https://orcid.org/0009-0004-0090-9553">ORCID</a>, and <a href="https://openreview.net/profile?id=%7EHailong_Zou1">OpenReview</a>.</p>
+<p class="publications-actions"><a class="publications-page-link" href="/publications/"><span data-i18n="publications.viewAll">View All Publications</span><i class="fas fa-arrow-right" aria-hidden="true"></i></a></p>
 
 <span class="anchor" id="experience"></span>
 

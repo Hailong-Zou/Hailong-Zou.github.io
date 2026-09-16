@@ -10,7 +10,7 @@ main:
 
   - title: "Publications"
     title_zh: "论文"
-    url: "/#publications"
+    url: "/publications/"
 
   - title: "Experience"
     title_zh: "经历"

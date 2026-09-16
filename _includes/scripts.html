@@ -44,6 +44,7 @@
         "section.research": "研究方向",
         "section.selectedResearch": "代表性研究",
         "section.publications": "论文发表",
+        "section.recentPublications": "近期论文",
         "section.journalArticles": "期刊论文",
         "section.preprints": "预印本",
         "section.experience": "科研与实习经历",
@@ -60,6 +61,10 @@
         "selected.bigmomo.label": "高效人工智能系统 · 端侧智能",
         "selected.bigmomo.description": "端侧 MoE 推理受限于内存容量和高昂的专家权重搬运开销。BigMoMo 利用推测解码实现权重复用，优化闪存访问，并将数据传输与 NPU 计算重叠，从而在移动设备上高效运行最高 30B 参数的 MoE 模型。",
         "common.paper": "论文",
+        "publications.pageKicker": "研究成果",
+        "publications.pageIntro": "以下为完整论文列表，并按期刊论文、会议论文和预印本分类。",
+        "publications.viewAll": "查看全部论文",
+        "publications.backHome": "返回主页",
         "publications.source": "完整且持续更新的论文列表请参见我的 <a href=\"https://scholar.google.com/citations?user=cE-S7Q4AAAAJ&hl=zh-CN\">Google Scholar</a>、<a href=\"https://orcid.org/0009-0004-0090-9553\">ORCID</a> 与 <a href=\"https://openreview.net/profile?id=%7EHailong_Zou1\">OpenReview</a> 页面。",
         "experience.iflab.institution": "北京大学智能融合实验室（IF-Lab）",
         "experience.iflab.role": "博士生 · 导师：陈翔教授",
@@ -122,14 +127,16 @@
       });
     });
 
+    var pageMetadata = document.querySelector("[data-page-title-zh][data-page-description-zh]");
+    var currentDescription = document.querySelector('meta[name="description"]');
     var englishMetadata = {
       title: document.title,
-      description: "Hailong Zou is a Ph.D. Student at Peking University working on efficient AI systems, on-device and edge AI, and hardware-software co-design for foundation-model inference.",
+      description: currentDescription ? currentDescription.getAttribute("content") : "Hailong Zou is a Ph.D. Student at Peking University working on efficient AI systems, on-device and edge AI, and hardware-software co-design for foundation-model inference.",
       author: "Hailong Zou"
     };
     var chineseMetadata = {
-      title: "邹海龙 | 北京大学计算机学院博士生",
-      description: "邹海龙是北京大学计算机学院博士生，研究方向包括高效人工智能系统、端侧与边缘智能以及面向基础模型推理的软硬件协同优化。",
+      title: pageMetadata ? pageMetadata.getAttribute("data-page-title-zh") : "邹海龙 | 北京大学计算机学院博士生",
+      description: pageMetadata ? pageMetadata.getAttribute("data-page-description-zh") : "邹海龙是北京大学计算机学院博士生，研究方向包括高效人工智能系统、端侧与边缘智能以及面向基础模型推理的软硬件协同优化。",
       author: "邹海龙"
     };
 

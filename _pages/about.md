@@ -242,7 +242,7 @@ Zihao Zheng, Zhihao Mao, Xingyue Zhou, Jiayu Chen, Maoliang Li, Xinhao Sun, **Ha
 <div class="service-grid">
   <div>
     <h3><span class="card-icon small"><i class="fas fa-clipboard-check" aria-hidden="true"></i></span><span data-i18n="service.reviewer.title">Conference Reviewer</span></h3>
-    <p data-i18n="service.reviewer.description">Conference on Neural Information Processing Systems (NeurIPS).</p>
+    <p data-i18n="service.reviewer.description">Conference on Neural Information Processing Systems (NeurIPS), IEEE/ACM International Conference on Computer-Aided Design (ICCAD), and IEEE International Conference on Computer Design (ICCD).</p>
   </div>
   <div>
     <h3><span class="card-icon small"><i class="fas fa-users" aria-hidden="true"></i></span><span data-i18n="service.leadership.title">Leadership &amp; Service</span></h3>

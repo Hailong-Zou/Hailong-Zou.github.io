@@ -119,11 +119,11 @@ Maoliang Li, Haojing Chen, Jiayu Chen, Zihao Zheng, Xinhao Sun, **Hailong Zou**,
 <h3 data-i18n="section.preprints">Preprints</h3>
 
 <div class="publication compact" markdown="1">
-<span class="venue" data-lang-en="arXiv · 2026 · Co-first Author" data-lang-zh="arXiv · 2026 · 共同一作">arXiv · 2026 · Co-first Author</span>
+<span class="venue">arXiv · 2026</span>
 
 #### [BigMoMo: Efficient Inference of Large-Scale MoE with Speculative Decoding on Mobile Devices](https://arxiv.org/abs/2609.14643)
 
-Maoliang Li<sup>*</sup>, **Hailong Zou**<sup>*</sup>, Taohong Han, Haoze Chi, Jiayu Chen, Zihao Zheng, Jie Zhang, Guojie Luo, Xiang Chen. <sup>*</sup>*Equal contribution.* *arXiv preprint*, 2026. [arXiv](https://arxiv.org/abs/2609.14643)
+Maoliang Li, **Hailong Zou**, Taohong Han, Haoze Chi, Jiayu Chen, Zihao Zheng, Jie Zhang, Guojie Luo, Xiang Chen. *arXiv preprint*, 2026. [arXiv](https://arxiv.org/abs/2609.14643)
 </div>
 
 <div class="publication compact" markdown="1">

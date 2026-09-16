@@ -51,7 +51,7 @@ redirect_from:
 
 <div class="research-grid">
   <article class="research-card">
-    <span class="research-label" data-i18n="selected.bigmomo.label">Co-first Author · Mobile MoE Systems</span>
+    <span class="research-label" data-i18n="selected.bigmomo.label">Efficient AI Systems · On-device AI</span>
     <h3>BigMoMo</h3>
     <p data-i18n="selected.bigmomo.description">Mobile MoE inference is constrained by limited DRAM and costly expert-weight movement. BigMoMo uses speculative decoding to reuse weights, reorganize flash access, and overlap transfers with NPU computation, enabling efficient inference of MoE models up to 30B parameters on mobile devices.</p>
     <p class="research-links"><a href="https://arxiv.org/abs/2609.14643" aria-label="BigMoMo paper on arXiv"><span data-i18n="common.paper">Paper</span></a></p>

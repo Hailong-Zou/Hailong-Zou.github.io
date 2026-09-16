@@ -56,24 +56,6 @@ redirect_from:
     <p data-i18n="selected.bigmomo.description">Mobile MoE inference is constrained by limited DRAM and costly expert-weight movement. BigMoMo uses speculative decoding to reuse weights, reorganize flash access, and overlap transfers with NPU computation, enabling efficient inference of MoE models up to 30B parameters on mobile devices.</p>
     <p class="research-links"><a href="https://arxiv.org/abs/2609.14643" aria-label="BigMoMo paper on arXiv"><span data-i18n="common.paper">Paper</span></a></p>
   </article>
-  <article class="research-card">
-    <span class="research-label" data-i18n="selected.moeca.label">Efficient Inference</span>
-    <h3>MoECa</h3>
-    <p data-i18n="selected.moeca.description">Diffusion Transformers with MoE routing still repeat expert-branch computation across timesteps. MoECa studies expert-aware feature reuse and synchronized cache updates for more efficient diffusion inference.</p>
-    <p class="research-links"><a href="https://arxiv.org/abs/2606.15615" aria-label="MoECa paper on arXiv"><span data-i18n="common.paper">Paper</span></a></p>
-  </article>
-  <article class="research-card">
-    <span class="research-label" data-i18n="selected.rapid.label">Edge-Cloud Systems</span>
-    <h3>RAPID</h3>
-    <p data-i18n="selected.rapid.description">VLA models strain edge devices, while conventional partitioning overlooks visual noise and step-wise redundancy. RAPID explores redundancy-aware edge-cloud partitioned inference for VLA deployment.</p>
-    <p class="research-links"><a href="https://arxiv.org/abs/2603.07949" aria-label="RAPID paper on arXiv"><span data-i18n="common.paper">Paper</span></a></p>
-  </article>
-  <article class="research-card">
-    <span class="research-label" data-i18n="selected.dyq.label">On-device AI</span>
-    <h3>DyQ-VLA</h3>
-    <p data-i18n="selected.dyq.description">Static precision does not match the changing sensitivity of embodied tasks. DyQ-VLA studies temporal-dynamic-aware bit-width switching and allocation for efficient VLA inference.</p>
-    <p class="research-links"><a href="https://arxiv.org/abs/2603.07904" aria-label="DyQ-VLA paper on arXiv"><span data-i18n="common.paper">Paper</span></a></p>
-  </article>
 </div>
 
 <span class="anchor" id="publications"></span>

@@ -76,6 +76,8 @@ include:
 exclude:
   - docs
   - google_scholar_crawler
+  - images/education/SOURCES.md
+  - images/experience/SOURCES.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

@@ -39,12 +39,10 @@
   venue: "ACM Multimedia"
   year: "2026"
   title: "EchoCache: Energy-Guided Cross-Modal Caching for Efficient Audio-Driven Video Generation"
-  url: "https://doi.org/10.1145/3767308.3835504"
+  url: "https://arxiv.org/abs/2608.02474"
   authors: ["Jiayu Chen", "Xiaoyu Wu", "Rongshan Gao", "Maoliang Li", "Zihao Zheng", "Xinhao Sun", "Hailong Zou", "Guojie Luo", "Xiang Chen"]
   citation_html: "<em>Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)</em>, 2026."
   links:
-    - label: "Paper"
-      url: "https://doi.org/10.1145/3767308.3835504"
     - label: "arXiv"
       url: "https://arxiv.org/abs/2608.02474"
   show_on_home: true
@@ -70,7 +68,7 @@
   year: "2026"
   title: "BigMoMo: Efficient Inference of Large-Scale MoE with Speculative Decoding on Mobile Devices"
   url: "https://arxiv.org/abs/2609.14643"
-  authors: ["Maoliang Li", "Hailong Zou", "Taohong Han", "Haoze Chi", "Jiayu Chen", "Zihao Zheng", "Jie Zhang", "Guojie Luo", "Xiang Chen"]
+  authors: ["Maoliang Li", "Hailong Zou", "Taohong Han", "Haoze Chi", "Jiayu Chen", "Zihao Zheng", "Zimo Guo", "Jie Zhang", "Guojie Luo", "Xiang Chen"]
   citation_html: "<em>arXiv preprint</em>, 2026."
   citation_inline: true
   compact: true

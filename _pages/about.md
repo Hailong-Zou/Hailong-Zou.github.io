@@ -14,14 +14,14 @@ redirect_from:
 <section class="intro-card">
   <div class="intro-copy">
     <div class="intro-meta">
-      <p class="intro-kicker" data-i18n="intro.kicker">Ph.D. Student · Efficient AI Systems · On-device AI · Hardware-Software Co-Design</p>
+      <p class="intro-kicker" data-i18n="intro.kicker">Ph.D. Student · Efficient AI Systems · On-device &amp; Edge AI · Hardware-Software Co-Design</p>
       <nav class="language-switcher" aria-label="Language selection" data-i18n-aria-label="language.label">
         <button type="button" data-language-option="en" aria-pressed="true">EN</button>
         <button type="button" data-language-option="zh" aria-pressed="false">中文</button>
       </nav>
     </div>
     <h1 data-i18n="profile.name">Hailong Zou</h1>
-    <p class="intro-lead" data-i18n-html="intro.lead">I am a Ph.D. Student in Computer Science and Technology at the School of Computer Science, Peking University, starting in September 2026. At the <a href="https://if-lab-pku.github.io/">Intelligence Fusion Laboratory (IF-Lab)</a>, I am advised by <a href="https://cs.pku.edu.cn/info/1210/2865.htm">Prof. Xiang Chen</a>. I work on efficient AI systems, with a focus on on-device foundation-model inference and hardware-software co-design for heterogeneous, resource-constrained platforms.</p>
+    <p class="intro-lead" data-i18n-html="intro.lead">I am a Ph.D. student in Computer Science and Technology at the School of Computer Science, Peking University. At the <a href="https://if-lab-pku.github.io/">Intelligence Fusion Laboratory (IF-Lab)</a>, I am advised by <a href="https://cs.pku.edu.cn/info/1210/2865.htm">Prof. Xiang Chen</a>. I work on efficient AI systems, with a focus on on-device foundation-model inference and hardware-software co-design for heterogeneous, resource-constrained platforms.</p>
     <p data-i18n="intro.education">I received my M.Eng. in Circuits and Systems from the Institute of Microelectronics, Chinese Academy of Sciences, and my B.Eng. in Electronic Information Engineering from Wuhan University.</p>
   </div>
 </section>
@@ -53,7 +53,7 @@ redirect_from:
   <article class="research-card">
     <span class="research-label" data-i18n="selected.bigmomo.label">Efficient AI Systems · On-device AI</span>
     <h3>BigMoMo</h3>
-    <p data-i18n="selected.bigmomo.description">Mobile MoE inference is constrained by limited DRAM and costly expert-weight movement. BigMoMo uses speculative decoding to reuse weights, reorganize flash access, and overlap transfers with NPU computation, enabling efficient inference of MoE models up to 30B parameters on mobile devices.</p>
+    <p data-i18n="selected.bigmomo.description">BigMoMo uses speculative decoding to decouple expert movement from single-token execution, enabling weight reuse, contiguous flash reads, and transfer-compute overlap. Across four MoE models and five benchmarks on two mobile platforms, it achieves mean decoding speedups of 4.83× over on-demand offloading and 1.82× over the best speculative MoE baseline, while supporting models with up to 80B parameters.</p>
     <p class="research-links"><a href="https://arxiv.org/abs/2609.14643" aria-label="BigMoMo paper on arXiv"><span data-i18n="common.paper">Paper</span></a></p>
   </article>
 </div>

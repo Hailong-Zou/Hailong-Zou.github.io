@@ -3,6 +3,7 @@ permalink: /publications/
 lang: en
 title: "Publications | Hailong Zou"
 excerpt: "Complete publication list of Hailong Zou, including journal articles, conference papers, and preprints on efficient AI systems, on-device AI, and hardware-software co-design."
+last_modified_at: 2026-10-07
 author_profile: true
 ---
 

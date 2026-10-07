@@ -1,12 +1,12 @@
 # Hailong Zou - Academic Homepage
 
-English-language academic homepage for Hailong Zou, based on [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io).
+Bilingual English-Chinese academic homepage for Hailong Zou, based on [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io).
 
 ## Content
 
 - Research-focused biography
 - Research interests and selected research
-- Journal articles and arXiv preprints
+- Journal articles, conference papers, and arXiv preprints
 - Research and industry experience
 - Education, honors, academic service, and photography
 - Links to GitHub, Google Scholar, ORCID, OpenReview, and PKU IF-Lab

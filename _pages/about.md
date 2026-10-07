@@ -3,6 +3,7 @@ permalink: /
 lang: en
 title: ""
 excerpt: "Hailong Zou is a Ph.D. Student at Peking University working on efficient AI systems, on-device and edge AI, and hardware-software co-design for foundation-model inference."
+last_modified_at: 2026-10-07
 author_profile: true
 redirect_from:
   - /about/

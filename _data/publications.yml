@@ -130,7 +130,7 @@
   year: "2026"
   title: "DyQ-VLA: Temporal-Dynamic-Aware Quantization for Embodied Vision-Language-Action Models"
   url: "https://arxiv.org/abs/2603.07904"
-  authors: ["Zihao Zheng", "Hangyu Cao", "Sicheng Tian", "Jiayu Chen", "Maoliang Li", "Xinhao Sun", "Hailong Zou", "Zhaobo Zhang", "Xuanzhe Liu", "Donggang Cao", "Hong Mei", "Xiang Chen"]
+  authors: ["Zihao Zheng", "Hangyu Cao", "Chibang Tao", "Zhihao Mao", "Lingyue Zhang", "Maoliang Li", "Jiayu Chen", "Hailong Zou", "Xuanzhe Liu", "Donggang Cao", "Hong Mei", "Xiang Chen"]
   citation_html: "<em>arXiv preprint</em>, 2026."
   citation_inline: true
   compact: true

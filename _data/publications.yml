@@ -2,8 +2,6 @@
   category: journal
   venue: "Information Sciences"
   year: "2026"
-  ranking_en: "CAS Zone 2 (2025)"
-  ranking_zh: "中科院2区（2025版）"
   title: "MAFNet: Mamba-based Asymmetric Fusion Network for Event-based Motion Deblurring"
   url: "https://doi.org/10.1016/j.ins.2026.123853"
   authors: ["Qihang Jiang", "Ye Zhao", "Weiliang Meng", "Ziang Wang", "Yumeng Ren", "Yulin Zhang", "Hailong Zou", "Shushan Qiao"]
@@ -16,8 +14,6 @@
   category: journal
   venue: "Neurocomputing"
   year: "2026"
-  ranking_en: "CAS Zone 2 (2025)"
-  ranking_zh: "中科院2区（2025版）"
   title: "C-DPSS: Channel Dual-Phase Sparsity Pruning Framework for Spiking Neural Networks"
   url: "https://doi.org/10.1016/j.neucom.2026.134101"
   authors: ["Jun Li", "Qiang Li", "Yiying Jiang", "Jionghao Zhang", "Hailong Zou", "Mengdie Tao", "Liang Wang", "Hang Ran", "Gang Li", "Zhe Zhang", "Bingchen Zhang", "Yi Zhan", "Shushan Qiao"]
@@ -30,8 +26,6 @@
   category: journal
   venue: "Applied Sciences"
   year: "2026"
-  ranking_en: "CAS Zone 4 (2025)"
-  ranking_zh: "中科院4区（2025版）"
   title: "SSKD: Stepwise Self-Knowledge Distillation for Binary Neural Networks in Keyword Spotting"
   url: "https://doi.org/10.3390/app16042021"
   authors: ["Hailong Zou", "Jionghao Zhang", "Jun Li", "Hang Ran", "Wulve Yang", "Rui Zhou", "Zenghui Yu", "Yi Zhan", "Shushan Qiao"]

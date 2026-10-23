@@ -81,7 +81,7 @@
   title: "MoECa: Aligning Feature Reuse with Expert Decomposition in Diffusion Transformers"
   url: "https://arxiv.org/abs/2606.15615"
   authors: ["Maoliang Li", "Haojing Chen", "Jiayu Chen", "Zihao Zheng", "Xinhao Sun", "Hailong Zou", "Xiang Chen"]
-  citation_html: "<em>ACM International Conference on Multimedia (ACM MM)</em>, 2026."
+  citation_html: "<em>Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)</em>, 2026."
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2606.15615"

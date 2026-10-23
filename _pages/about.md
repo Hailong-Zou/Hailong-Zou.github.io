@@ -15,7 +15,7 @@ redirect_from:
 <section class="intro-card">
   <div class="intro-copy">
     <div class="intro-meta">
-      <p class="intro-kicker" data-i18n="intro.kicker">Ph.D. Student · Efficient AI Systems · On-device &amp; Edge AI · Hardware-Software Co-Design</p>
+      <p class="intro-kicker" data-i18n="intro.kicker">Efficient AI Systems · On-device &amp; Edge AI · Hardware-Software Co-Design</p>
       <nav class="language-switcher" aria-label="Language selection" data-i18n-aria-label="language.label">
         <button type="button" data-language-option="en" aria-pressed="true">EN</button>
         <button type="button" data-language-option="zh" aria-pressed="false">中文</button>

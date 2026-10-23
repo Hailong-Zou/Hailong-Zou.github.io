@@ -49,7 +49,7 @@
   title: "GOMA: Geometrically Optimal Mapping via Analytical Modeling for Spatial Accelerators"
   url: "https://arxiv.org/abs/2603.07962"
   authors: ["Wulve Yang", "Hailong Zou", "Rui Zhou", "Jionghao Zhang", "Qiang Li", "Gang Li", "Yi Zhan", "Shushan Qiao"]
-  citation_html: "Accepted by <em>IEEE Transactions on Computers (TC)</em>, 2026."
+  citation_html: "<em>IEEE Transactions on Computers (TC)</em>, 2026."
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2603.07962"

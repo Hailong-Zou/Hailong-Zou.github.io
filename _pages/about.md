@@ -52,15 +52,21 @@ redirect_from:
 
 <div class="research-grid">
   <article class="research-card">
-    <span class="research-label" data-i18n="selected.mixmomo.label">Efficient AI Systems · Hardware-Software Co-Design</span>
+    <a class="research-figure" href="/images/research/mixmomo-overview.png" target="_blank" rel="noopener" aria-label="View the MixMoMo overview figure in full size" data-i18n-aria-label="selected.mixmomo.figureLink">
+      <img src="/images/research/mixmomo-overview.png" width="757" height="284" loading="lazy" decoding="async" alt="MixMoMo overview: precision assignment, GPU–NPU expert allocation, and parallel dequantization" data-i18n-alt="selected.mixmomo.figureAlt">
+    </a>
+    <span class="research-label" data-i18n="selected.mixmomo.label">Hardware-Software Co-Design</span>
     <h3>MixMoMo</h3>
-    <p data-i18n="selected.mixmomo.description">MixMoMo combines quality-constrained expert bitwidth assignment, balanced GPU–NPU expert allocation, and parallel dequantization to accelerate mixed-precision MoE inference on mobile devices. Across three MoE models and five benchmarks on two mobile platforms, it achieves average decoding speedups of 3.72× over uniform Q4_0 and 1.53× over the strongest mixed-precision MoE baseline.</p>
+    <p data-i18n="selected.mixmomo.description">Mixed-precision GPU–NPU execution for mobile MoE models. Achieves 3.72× average decoding speedup over uniform Q4_0 quantization.</p>
     <p class="research-links"><a href="https://arxiv.org/abs/2611.33981" aria-label="MixMoMo paper on arXiv"><span data-i18n="common.paper">Paper</span></a></p>
   </article>
   <article class="research-card">
-    <span class="research-label" data-i18n="selected.bigmomo.label">Efficient AI Systems · On-device AI</span>
+    <a class="research-figure" href="/images/research/bigmomo-overview.png" target="_blank" rel="noopener" aria-label="View the BigMoMo overview figure in full size" data-i18n-aria-label="selected.bigmomo.figureLink">
+      <img src="/images/research/bigmomo-overview.png" width="840" height="294" loading="lazy" decoding="async" alt="BigMoMo system overview: speculative verification, expert reuse, and overlapping weight transfers with NPU execution" data-i18n-alt="selected.bigmomo.figureAlt">
+    </a>
+    <span class="research-label" data-i18n="selected.bigmomo.label">On-device AI</span>
     <h3>BigMoMo</h3>
-    <p data-i18n="selected.bigmomo.description">BigMoMo uses speculative decoding to decouple expert movement from single-token execution, enabling weight reuse, contiguous flash reads, and transfer-compute overlap. Across four MoE models and five benchmarks on two mobile platforms, it achieves mean decoding speedups of 4.83× over on-demand offloading and 1.82× over the best speculative MoE baseline, while supporting models with up to 80B parameters.</p>
+    <p data-i18n="selected.bigmomo.description">Speculative decoding and expert reuse enable mobile MoE inference up to 80B parameters. Achieves 4.83× average decoding speedup over on-demand offloading.</p>
     <p class="research-links"><a href="https://arxiv.org/abs/2609.14643" aria-label="BigMoMo paper on arXiv"><span data-i18n="common.paper">Paper</span></a></p>
   </article>
 </div>

@@ -50,8 +50,6 @@ redirect_from:
 
 <h2 data-i18n="section.selectedResearch">Selected Research</h2>
 
-<p data-i18n="selected.series.description">BigMoMo and MixMoMo are part of a research series on efficient mobile MoE inference, exploring speculative decoding and expert movement alongside mixed-precision GPU–NPU execution.</p>
-
 <div class="research-grid">
   <article class="research-card">
     <span class="research-label" data-i18n="selected.mixmomo.label">Efficient AI Systems · Hardware-Software Co-Design</span>

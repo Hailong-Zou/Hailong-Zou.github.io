@@ -3,7 +3,7 @@ permalink: /
 lang: en
 title: ""
 excerpt: "Hailong Zou is a Ph.D. Student at Peking University working on efficient AI systems, on-device and edge AI, and hardware-software co-design for foundation-model inference."
-last_modified_at: 2026-10-23
+last_modified_at: 2026-11-26
 author_profile: true
 redirect_from:
   - /about/
@@ -50,7 +50,15 @@ redirect_from:
 
 <h2 data-i18n="section.selectedResearch">Selected Research</h2>
 
+<p data-i18n="selected.series.description">BigMoMo and MixMoMo are part of a research series on efficient mobile MoE inference, exploring speculative decoding and expert movement alongside mixed-precision GPU–NPU execution.</p>
+
 <div class="research-grid">
+  <article class="research-card">
+    <span class="research-label" data-i18n="selected.mixmomo.label">Efficient AI Systems · Hardware-Software Co-Design</span>
+    <h3>MixMoMo</h3>
+    <p data-i18n="selected.mixmomo.description">MixMoMo combines quality-constrained expert bitwidth assignment, balanced GPU–NPU expert allocation, and parallel dequantization to accelerate mixed-precision MoE inference on mobile devices. Across three MoE models and five benchmarks on two mobile platforms, it achieves average decoding speedups of 3.72× over uniform Q4_0 and 1.53× over the strongest mixed-precision MoE baseline.</p>
+    <p class="research-links"><a href="https://arxiv.org/abs/2611.33981" aria-label="MixMoMo paper on arXiv"><span data-i18n="common.paper">Paper</span></a></p>
+  </article>
   <article class="research-card">
     <span class="research-label" data-i18n="selected.bigmomo.label">Efficient AI Systems · On-device AI</span>
     <h3>BigMoMo</h3>

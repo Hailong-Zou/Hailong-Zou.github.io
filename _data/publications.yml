@@ -82,6 +82,22 @@
   show_on_home: true
   home_order: 4
 
+- id: mixmomo
+  category: preprint
+  venue: "arXiv"
+  year: "2026"
+  title: "MixMoMo: Accelerating Extra–Large MoE Inference with Mixed–Precision GPU–NPU Execution on Mobile Devices"
+  url: "https://arxiv.org/abs/2611.33981"
+  authors: ["Hailong Zou", "Maoliang Li", "Taohong Han", "Haoze Chi", "Zihao Zheng", "Jiayu Chen", "Xiang Chen"]
+  citation_html: "<em>arXiv preprint</em>, 2026."
+  citation_inline: true
+  compact: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2611.33981"
+  show_on_home: true
+  home_order: 0
+
 - id: bigmomo
   category: preprint
   venue: "arXiv"

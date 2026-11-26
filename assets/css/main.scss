@@ -530,8 +530,7 @@ html[lang="zh-CN"] .page__content > h3 {
 
 .research-grid {
     display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: minmax(0, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1rem;
     margin: 1.2rem 0 2rem;
 }
@@ -1068,7 +1067,8 @@ html[lang="zh-CN"] .page__content > h3 {
 }
 
 @media (max-width: 1120px) {
-    .focus-grid {
+    .focus-grid,
+    .research-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
@@ -1140,7 +1140,6 @@ html[lang="zh-CN"] .page__content > h3 {
 
 @media (max-width: 767px) {
     .research-grid {
-        grid-auto-flow: row;
         grid-template-columns: minmax(0, 1fr);
     }
 

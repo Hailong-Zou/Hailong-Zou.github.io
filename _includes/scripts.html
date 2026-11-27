@@ -4,25 +4,59 @@
   (function () {
     var navButton = document.querySelector('#site-nav button');
     var hiddenLinks = document.getElementById('site-nav-hidden-links');
+    var navigation = document.getElementById('site-nav');
+    var visibleLinks = navigation && navigation.querySelector('.visible-links');
 
-    if (!navButton || !hiddenLinks) return;
+    if (!navButton || !hiddenLinks || !visibleLinks) return;
 
     function syncNavigationState() {
       navButton.setAttribute('aria-expanded', String(!hiddenLinks.classList.contains('hidden')));
     }
 
+    function closeNavigation() {
+      hiddenLinks.classList.add('hidden');
+      navButton.classList.remove('close');
+      syncNavigationState();
+    }
+
+    function refreshNavigation() {
+      // Measure all links again: cached widths become stale after a language switch.
+      while (hiddenLinks.firstElementChild) {
+        visibleLinks.appendChild(hiddenLinks.firstElementChild);
+      }
+      navButton.classList.add('hidden');
+      closeNavigation();
+      var availableWidth = navigation.clientWidth;
+      if (visibleLinks.getBoundingClientRect().width > availableWidth) {
+        navButton.classList.remove('hidden');
+        availableWidth -= navButton.getBoundingClientRect().width + 30;
+        while (visibleLinks.children.length > 1 && visibleLinks.getBoundingClientRect().width > availableWidth) {
+          hiddenLinks.insertBefore(visibleLinks.lastElementChild, hiddenLinks.firstElementChild);
+        }
+      }
+      navButton.setAttribute('count', String(hiddenLinks.children.length));
+    }
+
+    // The theme's resize handler calls this global function.
+    window.updateNav = refreshNavigation;
+
     navButton.addEventListener('click', syncNavigationState);
     hiddenLinks.addEventListener('click', function (event) {
       if (event.target.closest('a')) {
-        hiddenLinks.classList.add('hidden');
-        navButton.classList.remove('close');
-        syncNavigationState();
+        closeNavigation();
       }
     });
-    window.addEventListener('resize', function () {
-      window.requestAnimationFrame(syncNavigationState);
+    navigation.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && navButton.getAttribute('aria-expanded') === 'true') {
+        closeNavigation();
+        navButton.focus();
+      }
     });
-    syncNavigationState();
+    window.addEventListener('homepage:languagechange', refreshNavigation);
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(refreshNavigation);
+    }
+    refreshNavigation();
   }());
 </script>
 
